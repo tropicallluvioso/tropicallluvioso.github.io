@@ -6,6 +6,12 @@
   "dependencies": {
     "astro": "^0.22.13"
   },
+  "scripts": {
+    "start": "astro dev",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
   "glitch": {
     "projectType": "generated_static"
   }
