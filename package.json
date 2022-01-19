@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "astro": "^0.22.13"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  }
+}
