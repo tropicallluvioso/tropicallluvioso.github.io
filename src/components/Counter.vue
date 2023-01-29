@@ -1,6 +1,6 @@
 <template>
 	<div class="counter">
-		<button @click="subtract()">-</button>
+		<button @click="subtract()"> why </button>
 		<pre>{{ count }}</pre>
 		<button @click="add()">+</button>
 	</div>

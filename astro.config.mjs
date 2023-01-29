@@ -6,8 +6,8 @@ import svelte from "@astrojs/svelte";
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   outDir: './build/',
   output: 'static',
-  devOptions: {
-    hostname: '0.0.0.0'
+  server: {
+    host: '0.0.0.0'
   },
   vite: {
     server: {
