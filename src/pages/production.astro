@@ -1,0 +1,34 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+import '../styles/main.css';
+import '../styles/screen.css';
+
+const response = await fetch('https://randomuser.me/api/?results=6');
+const data = await response.json();
+const dataRes = data.results;
+console.log(dataRes)
+
+
+
+let {title} = Astro.props;
+---
+
+<MainLayout title="Production - Tropical Lluvioso">
+  <main >
+    {dataRes.map((person) => 
+   
+    <div class="card" style="background:url({person.picture.large})">
+      <div class="content">
+        <h2 class="title">{person.name.first}</h2>
+        <p id ="copy" class="copy">
+         {person.location.country}
+        </p>
+        <a class="btn">{person.email}</a>
+      </div>
+    </div>
+    )} 
+    
+    
+   
+  </main>
+</MainLayout>
