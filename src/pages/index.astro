@@ -1,14 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
-import gsap from "https://cdn.skypack.dev/gsap"
-import Observer from "https://cdn.skypack.dev/observer"
 import '../styles/main.css';
-
-const response = await fetch('https://randomuser.me/api/');
-const data = await response.json();
-const randomUser = data.results[0];
-
-
+import exscripts from "../components/external-scripts.astro"
 
 let title = "Tropical Lluvioso"
 ---
@@ -39,8 +32,12 @@ let title = "Tropical Lluvioso"
 
 
 </MainLayout>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
-<script>
+
+<script is:inline src="https://assets.codepen.io/16327/gsap-latest-beta.min.js"></script>
+<script is:inline src="https://assets.codepen.io/16327/Observer.min.js"></script>
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script is:inline>
 gsap.registerPlugin(Observer);
 
 let sections = document.querySelectorAll("section"),
