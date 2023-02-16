@@ -5,7 +5,7 @@ import '../styles/screen.css';
 
 const response = await fetch('http://universities.hipolabs.com/search?name=middle');
 const data = await response.json();
-const dataRes = data.results;
+const dataRes = data;
 
 
 
@@ -16,8 +16,8 @@ let title = "Tropical Lluvioso"
   <main class="page-content">
   
   
-  {identity.hobbies.length >= 2 && 
-    <li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
+  {dataRes.length >= 2 && 
+    <li>Two of my hobbies are: {dataRes.domains[0]} and {dataRes.domains[1]}</li>
   } 
   
     <div class="card">
