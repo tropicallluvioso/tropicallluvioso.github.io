@@ -1,7 +1,9 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
-//import React from 'https://cdn.skypack.dev/react';
+const response = await fetch('https://randomuser.me/api/');
+const data = await response.json();
+const randomUser = data.results[0];
 
 let title = "Tropical Lluvioso"
 ---
@@ -17,4 +19,18 @@ let title = "Tropical Lluvioso"
   </div>
 
 </section>
+<section class="second">
+  <div class="outer">
+    <div class="inner">
+      <div class="bg two">
+        <h2 class="section-heading"></h2>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
 </MainLayout>
