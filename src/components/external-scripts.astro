@@ -1,45 +1,7 @@
----
-import MainLayout from "../layouts/MainLayout.astro"
-import gsap from "https://cdn.skypack.dev/gsap"
-import Observer from "https://cdn.skypack.dev/observer"
-import '../styles/main.css';
+<script is:inline src="https://assets.codepen.io/16327/gsap-latest-beta.min.js"></script>
+<script is:inline src="https://assets.codepen.io/16327/Observer.min.js"></script>
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
-const response = await fetch('https://randomuser.me/api/');
-const data = await response.json();
-const randomUser = data.results[0];
-
-
-
-let title = "Tropical Lluvioso"
----
-
-<MainLayout>
-<section class="first">
-  <div class="outer">
-    <div class="inner">
-      <div class="bg one">
-        <h2 class="section-heading"></h2>
-      </div>
-    </div>
-  </div>
-
-</section>
-<section class="second">
-  <div class="outer">
-    <div class="inner">
-      <div class="bg two">
-        <h2 class="section-heading"></h2>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-
-
-
-</MainLayout>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
 <script>
 gsap.registerPlugin(Observer);
 
