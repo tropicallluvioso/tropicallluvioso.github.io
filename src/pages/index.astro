@@ -3,10 +3,10 @@ import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
 import exscripts from "../components/external-scripts.astro"
 
-let title = "Tropical Lluvioso"
+let {title} = Astro.props;
 ---
 
-<MainLayout>
+<MainLayout title="Tropical Lluvioso  ">
 <section class="first">
   <div class="outer">
     <div class="inner">
@@ -94,14 +94,23 @@ Observer.create({
   preventDefault: true
 });
 
-function handleClick () {
-    menuOver.classList.toggle("open")
-    bar.classList.toggle('close');
+function handleClick () {  
+    
+    if (menuOver.classList.contains('open')) {
+    menuOver.classList.remove('open');
+ bar.classList.remove('close');
+  } else {
+  console.log(menuOver)
+    menuOver.classList.add('open');
+  bar.classList.add('close');
+  }
   }
   
   let menu = document.querySelector("#menu_button")
   let bar = document.querySelector("#bar")
   let menuOver = document.querySelector("#menu_overlay")
   menu.addEventListener("click", handleClick);
+  
+
   
 </script>
