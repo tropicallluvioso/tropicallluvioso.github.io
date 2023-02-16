@@ -100,7 +100,7 @@ h2 * {
     transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
-.menu_button {
+#menu_button {
   position: absolute;
   width: 35px;
   height: 35px;
