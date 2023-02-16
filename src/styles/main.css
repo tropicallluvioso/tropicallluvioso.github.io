@@ -12,7 +12,7 @@ body {
   height: 100vh;
   color: white;
   background: black;
-  text-transform: lowercase;
+ 
   font-family: "Poppins", sans-serif;
 }
 
@@ -28,6 +28,7 @@ header {
   font-family: "Bebas Neue", sans-serif;
   font-size: clamp(0.66rem, 2vw, 1rem);
   letter-spacing: 0.5em;
+   text-transform: lowercase;
 }
 
 section {
@@ -55,25 +56,8 @@ section .bg {
   background-position: center;
 }
 
-.first .bg {
-  background-image: url(https://cdn.glitch.global/83841118-9de7-4fb7-b314-f02de482edf2/Ini1.jpg);
-}
 
-.second .bg {
-  background-image: url(https://cdn.glitch.global/83841118-9de7-4fb7-b314-f02de482edf2/Ini2.jpg);
-}
 
-.third .bg {
-  background-image: url(https://cdn.glitch.global/83841118-9de7-4fb7-b314-f02de482edf2/Ini3.jpg);
-}
-
-.fourth .bg {
-  background-image: url(https://cdn.glitch.global/83841118-9de7-4fb7-b314-f02de482edf2/Ini4.jpg);
-}
-
-.fifth .bg {
-  background-image: url(https://cdn.glitch.global/83841118-9de7-4fb7-b314-f02de482edf2/Ini5.jpg);
-}
 
 h2 * {
   will-change: transform;
@@ -226,4 +210,9 @@ svg {
   fill: white;
 }
 
-
+.aboutText {
+    margin: 4rem auto;
+    display: inline-block;
+    padding: 7rem;
+    text-align: justify;
+}
