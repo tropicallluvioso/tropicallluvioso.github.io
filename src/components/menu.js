@@ -5,4 +5,4 @@ const bar = document.querySelectorAll(".bar");
 menuButton.addEventListener("click", function() {
   menuOverlay.classList.toggle("open");
   bar.forEach(bar => bar.classList.toggle("close"));
-});
+}); 

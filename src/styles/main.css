@@ -31,6 +31,10 @@ header {
    text-transform: lowercase;
 }
 
+.after-header-space{
+  padding:4rem;
+}
+
 section {
   height: 100%;
   width: 100%;
@@ -213,6 +217,6 @@ svg {
 .aboutText {
     margin: 4rem auto;
     display: inline-block;
-    padding: 7rem;
+    padding: 0 5rem;
     text-align: justify;
 }
