@@ -94,23 +94,14 @@ Observer.create({
   preventDefault: true
 });
 
-function handleClick () {  
-    
-    if (menuOver.classList.contains('open')) {
-    menuOver.classList.remove('open');
- bar.classList.remove('close');
-  } else {
-  console.log(menuOver)
-    menuOver.classList.add('open');
-  bar.classList.add('close');
-  }
-  }
-  
-  let menu = document.querySelector("#menu_button")
-  let bar = document.querySelector("#bar")
-  let menuOver = document.querySelector("#menu_overlay")
-  menu.addEventListener("click", handleClick);
-  
 
+const menuButton = document.querySelector(".menu_button");
+const menuOverlay = document.querySelector(".menu_overlay");
+const bar = document.querySelectorAll(".bar");
+
+menuButton.addEventListener("click", function() {
+  menuOverlay.classList.toggle("open");
+  bar.forEach(bar => bar.classList.toggle("close"));
+});
   
 </script>
