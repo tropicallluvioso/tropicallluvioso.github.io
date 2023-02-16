@@ -1,0 +1,55 @@
+---
+import MainLayout from "../layouts/MainLayout.astro"
+import '../styles/main.css';
+import '../styles/screen.css';
+
+const response = await fetch('https://randomuser.me/api/');
+const data = await response.json();
+const randomUser = data.results[0];
+
+
+
+let title = "Tropical Lluvioso"
+---
+
+<MainLayout>
+  <main class="page-content">
+    <div class="card">
+      <div class="content">
+        <h2 class="title">{randomUser.name.first}</h2>
+        <p class="copy">
+         {randomUser.gender}
+        </p>
+        <a class="btn">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Peli 1</h2>
+        <p class="copy">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+          dicta, expedita necessitatibus, quibusdam soluta nulla aperiam. Iste
+          aperiam, molestias fugiat asperiores provident numquam eaque. Placeat
+          ex rem quas voluptatibus atque iure doloremque autem beatae velit quae
+          adipisci in laudantium commodi excepturi ipsam asperiores aut, minima
+          dolorem distinctio cupiditate laborum?
+        </p>
+        <a class="btn">Read more</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2 class="title">Peli 1</h2>
+        <p class="copy">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
+          dicta, expedita necessitatibus, quibusdam soluta nulla aperiam. Iste
+          aperiam, molestias fugiat asperiores provident numquam eaque. Placeat
+          ex rem quas voluptatibus atque iure doloremque autem beatae velit quae
+          adipisci in laudantium commodi excepturi ipsam asperiores aut, minima
+          dolorem distinctio cupiditate laborum?
+        </p>
+        <a class="btn">Read more</a>
+      </div>
+    </div>
+  </main>
+</MainLayout>
