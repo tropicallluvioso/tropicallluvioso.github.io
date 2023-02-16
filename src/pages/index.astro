@@ -95,7 +95,13 @@ Observer.create({
 });
 
 function handleClick () {
-    console.log("¡botón clickeado!");
+    menuOver.classList.toggle("open")
+    bar.classList.toggle('close');
   }
-  document.querySelector("#menu_button").addEventListener("click", handleClick);
+  
+  let menu = document.querySelector("#menu_button")
+  let bar = document.querySelector("#bar")
+  let menuOver = document.querySelector("#menu_overlay")
+  menu.addEventListener("click", handleClick);
+  
 </script>
