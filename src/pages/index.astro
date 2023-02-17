@@ -13,16 +13,12 @@ let {title} = Astro.props;
 <MainLayout title="Tropical Lluvioso  ">
 
 <div class="container-slides">
-      <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+     
       {dataRes.map((person) => 
       <img src={person.picture.large} alt="">
       )}
-      <div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i>
+      
       </div>
-
-
-
-
 </MainLayout>
 
 <script src="../components/auto-slideshow.js"></script>

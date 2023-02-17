@@ -1,6 +1,6 @@
+
 const imgs = document.querySelectorAll(".container img");
-const leftArrow = document.querySelector(".arrow-left");
-const rightArrow = document.querySelector(".arrow-right");
+ console.log(imgs)
 
 let currentIndex = 0;
 let time = 3000; // default time for auto slideshow
@@ -16,7 +16,7 @@ const defClass = (startPos, index) => {
 
 defClass(1, 0);
 
-leftArrow.addEventListener("click", function(){
+/*leftArrow.addEventListener("click", function(){
   currentIndex <= 0 ? currentIndex = imgs.length-1 : currentIndex--;
   defClass(0, currentIndex);
 });
@@ -24,15 +24,17 @@ leftArrow.addEventListener("click", function(){
 rightArrow.addEventListener("click", function(){
   currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
   defClass(0, currentIndex);
-});
+});*/
 
 const startAutoSlide = () => {
   setInterval(() => {
-    currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
+    currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex+1;
     defClass(0, currentIndex);
+    
   }, time);
+ 
 };
 
 startAutoSlide();
 
-console.log('aa')// Start the slideshow
+// Start the slideshow
