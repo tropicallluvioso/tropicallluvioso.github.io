@@ -1,0 +1,1 @@
+const l=document.querySelectorAll(".container-slides .slide");console.log(l);var e=0;let c=3e3;const s=(o,n)=>{for(let t=o;t<l.length;t++)l[t].style.display="none";l[n].style.display="block"};s(1,0);const i=()=>{setInterval(()=>{e>=l.length-1?e=0:e++,s(0,e),console.log(e)},c)};i();
