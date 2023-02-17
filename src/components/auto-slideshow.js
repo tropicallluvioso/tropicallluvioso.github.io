@@ -1,6 +1,9 @@
+---
+---
 
-const imgs = document.querySelectorAll(".container .slide");
- console.log(imgs)
+<script>
+const imgs = document.querySelectorAll(".container-slides .slide");
+console.log(imgs)
 
 let currentIndex = 0;
 let time = 3000; // default time for auto slideshow
@@ -30,11 +33,12 @@ const startAutoSlide = () => {
   setInterval(() => {
     currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex+1;
     defClass(0, currentIndex);
-    
+    console.log(currentIndex)
   }, time);
  
 };
 
-
+startAutoSlide();
 
 // Start the slideshow
+</script>
