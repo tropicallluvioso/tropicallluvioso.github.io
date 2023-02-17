@@ -33,4 +33,6 @@ const startAutoSlide = () => {
   }, time);
 };
 
-startAutoSlide(); // Start the slideshow
+startAutoSlide();
+
+console.log('aa')// Start the slideshow
