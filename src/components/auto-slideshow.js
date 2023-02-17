@@ -1,5 +1,5 @@
 
-const imgs = document.querySelectorAll(".container img");
+const imgs = document.querySelectorAll(".container .slide");
  console.log(imgs)
 
 let currentIndex = 0;
