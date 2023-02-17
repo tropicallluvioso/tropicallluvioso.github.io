@@ -5,11 +5,12 @@ import '../styles/main.css';
 let {title} = Astro.props;
 ---
 
-<Main
-<div   class="container">
+<MainLayout>
+<div class="container">
   <h1>Contact</h1>
   <div>For general inquiries, please use the contact form.
     </div>
+    <div class="container">
   <form target="_blank" action="https://formsubmit.co/your@email.com" method="POST">
     <div class="form-group">
       <div class="form-row">
@@ -26,4 +27,6 @@ let {title} = Astro.props;
     </div>
     <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
   </form>
+  </div>
 </div>
+</MainLayout>
