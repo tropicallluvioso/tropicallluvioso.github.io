@@ -1,20 +1,28 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
+import '../styles/slideshow.css';
 
-const response = await fetch('https://randomuser.me/api/?results=6');
+const response = await fetch('https://dog.ceo/api/breed/hound/images');
 const data = await response.json();
-const dataRes = data.results;
+const dataRes = data.message;
 
 let {title} = Astro.props;
 ---
 
 <MainLayout title="Tropical Lluvioso  ">
 
+<div class="container-slides">
+      <div class="arrow arrow-left"><i class="fas fa-chevron-circle-left"></i></div>
+      {dataRes.map((dog) => 
+      <img src={dog} alt="">
+      )}
+      <div class="arrow arrow-right"><i class="fas fa-chevron-circle-right"></i>
+      </div>
 
 
 
 
 </MainLayout>
 
-<script client:load src="../components/auto-slideshow.js"></script>
+<script src="../components/auto-slideshow.js"></script>
