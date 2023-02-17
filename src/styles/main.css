@@ -236,8 +236,8 @@ svg {
 }
 
 .row>.col {
- 
-    padding-left: 5px;
+    padding-right: 5px;
+
 }
 
 .form-control{
@@ -295,4 +295,21 @@ svg {
 
 .pd-medium{
   padding:5rem;
+}
+
+p {
+  max-inline-size: 70ch;
+}
+
+.btn {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 60px;
+    padding: 0px 84px;
+    font-weight: 700;
+    font-size: 18px;
 }
