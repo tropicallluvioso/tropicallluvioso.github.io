@@ -229,7 +229,7 @@ svg {
     margin: 4rem auto;
     display: inline-block;
     padding: 0 5rem;
-    text-align: justify;
+    line-height:1.5em;
 }
 
 .form-group {
