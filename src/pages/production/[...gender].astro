@@ -27,27 +27,7 @@ const { email } = Astro.props;
 <MainLayout>
 
 
-  <div class="tabordion center-content">
-  <section id="section1">
-    <input type="radio" name="sections" id="option1" checked>
-    <label for="option1">Galería</label>
-    <article>
-      <h2>{gender} Galería</h2>
-    </article>
-  </section>
-<section id="section2">
-    <input type="radio" name="sections" id="option2" checked>
-    <label for="option2">Ficha</label>
-    <article>
-      <h2>{email} Ficha</h2>
-    </article>
-  </section>
-  <section id="section3">
-    <input type="radio" name="sections" id="option3" checked>
-    <label for="option3">{email}Sinopsis</label>
-    <article>
-      <h2>{email} Sinopsis</h2>
-    </article>
-  </section>
+  <div class=" center-content">
+  {gender}
 </div>
 </MainLayout>
