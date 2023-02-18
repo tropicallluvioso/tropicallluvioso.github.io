@@ -9,14 +9,20 @@ console.log(dataRes[0].gender)
   return [
     { 
       params: { 
-         project: dataRes[0].gender, data:dataRes[0].name.first} 
-    },
+         project: dataRes[0].gender
+         },
+         props:  dataRes
+    }
+    
   ];
 }
 
 const { project } = Astro.params;
+const { data } = Astro.props;
 ---
 
 <h1>this is {project}, a decent car</h1>
-<p>{data}</p>
+
+<p>{}</p>
+
 
