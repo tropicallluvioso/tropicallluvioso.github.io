@@ -27,7 +27,8 @@ header {
   height: 7em;
   font-size: clamp(0.66rem, 2vw, 1rem);
   letter-spacing: 0.5em;
-   text-transform: lowercase;
+  text-transform: lowercase;
+  top:0;
 }
 
 .after-header-space{
@@ -323,6 +324,3 @@ p {
 }
 
 
-.tabordion {
-  background:white;
-}

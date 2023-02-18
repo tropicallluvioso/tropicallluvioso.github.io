@@ -1,128 +1,86 @@
-
-::-moz-selection {
-  background: #6d50e2;
-  color: #fff;
-}
-
-
-
-.tab-container {
-  max-width: 950px;
-  width: 100%;
-  padding: 40px 50px 40px 40px;
-  background: #fff;
-  margin: 0 20px;
-  border-radius: 12px;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.tab-container .topic {
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 20px;
-}
-
-.tab-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.tab-content .list {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  margin-right: 50px;
+h2 {
   position: relative;
+  padding-bottom: 0.5em;
+  margin-bottom: 1.5em;
+  border-bottom: 1px solid rgba(220, 231, 235, 0.5);
 }
-
-.tab-content .list label {
-  height: 60px;
-  font-size: 22px;
-  font-weight: 500;
-  line-height: 60px;
-  cursor: pointer;
-  padding-left: 25px;
-  transition: all 0.5s ease;
-  color: #333;
-  z-index: 12;
-}
-
-
-
-.tab-content .list label:hover {
-  color: #6d50e2;
-}
-
-.tab-content .slider {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 60px;
-  width: 100%;
-  border-radius: 12px;
-  background: #6d50e2;
-  transition: all 0.4s ease;
-}
-
-#home:checked ~ .list .slider {
-  top: 0;
-}
-
-#blog:checked ~ .list .slider {
-  top: 60px;
-}
-
-#help:checked ~ .list .slider {
-  top: 120px;
-}
-
-#code:checked ~ .list .slider {
-  top: 180px;
-}
-
-#about:checked ~ .list .slider {
-  top: 240px;
-}
-
-.tab-content .text-content {
+.tabordion {
+  position: relative;
   width: 80%;
-  height: 100%;
+  color: #30455c;
+  margin: 0;
 }
-
-.tab-content .text {
-  display: none;
+.tabordion figure {
+  display: block;
+  width: 100%;
+  left: 0;
 }
-
-.tab-content .text .title {
-  font-size: 25px;
-  margin-bottom: 10px;
-  font-weight: 500;
+.tabordion figure input[name="sections"] {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
 }
-
-.tab-content .text p {
-  text-align: justify;
+.tabordion figure input[name="sections"]:checked + label {
+  color: red;
 }
-
-.tab-content .text-content .home {
+.tabordion figure input[name="sections"]:checked ~ article {
   display: block;
 }
+.tabordion figure label {
+  font-weight: 700;
 
-#home:checked ~ .text-content .home,
-#blog:checked ~ .text-content .blog,
-#help:checked ~ .text-content .help,
-#code:checked ~ .text-content .code,
-#about:checked ~ .text-content .about {
+  cursor: pointer;
   display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1em 0.83em;
+  position: relative;
+  width: 100%;
+  z-index: 100;
 }
 
-#blog:checked ~ .text-content .home,
-#help:checked ~ .text-content .home,
-#code:checked ~ .text-content .home,
-#about:checked ~ .text-content .home {
-  display: none;
+.tabordion figure label:hover {
+  color: red;
 }
 
-.content input {
+.tabordion figure article {
   display: none;
+  left: 0;
+  width: 100%;
+  padding: 1em;
+  position: relative;
+  top: 0;
+  background: #fefffa;
+  font-weight: 300;
+  line-height: 1.7;
+  border-radius: 7px;
+}
+.tabordion figure article p {
+  margin-bottom: 1em;
+}
+.tabordion figure article:after {
+  background-color: transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+
+  position: absolute;
+  top: 0;
+  width: 220px;
+  z-index: 1;
+}
+
+@media all and (min-width: 768px) {
+  .tabordion {
+    width: 80%;
+  }
+  .tabordion figure label {
+    padding: 1em 2.5%;
+    width: 20%;
+  }
+  .tabordion figure article {
+    position: absolute;
+    width: 70%;
+    left: 26.5%;
+  }
 }
