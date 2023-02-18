@@ -1,0 +1,57 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro"
+import '../../styles/main.css';
+import "../../styles/project.css"
+export async function getStaticPaths() {
+
+
+const response = await fetch('https://randomuser.me/api/?results=2');
+const data = await response.json();
+const dataRes = data.results;
+
+
+  return dataRes.map(({ name, email }) => {
+
+    return {
+      params: { name },
+      props: { email },
+    };
+  });
+}
+
+const { name } = Astro.params;
+const { email } = Astro.props;
+
+
+---
+<MainLayout>
+<div class="after-header-space"></div>
+<div class="center-self">
+<div class="tabordion">
+
+  <figure id="section1">
+    <input type="radio" name="sections" id="option1" checked>
+    <label for="option1">Galería</label>
+    <article>
+      <h2>Galería</h2>
+      <p>{name.first}</p>
+    </article>
+    </figure>
+    <figure id="section2">
+      <input type="radio" name="sections" id="option2" checked>
+      <label for="option2">Ficha</label>
+      <article>
+        <h2>Ficha</h2>
+        <p>{name.first} ficha</p>
+      </article>
+    </figure>
+    <figure id="section3">
+      <input type="radio" name="sections" id="option3" checked>
+      <label for="option3">Sinopsis</label>
+      <article>
+        <h2>Sinopsis</h2>
+        <p>{email} sinopsis</p>
+      </article>
+    </figure>
+</div></div>
+</MainLayout>
