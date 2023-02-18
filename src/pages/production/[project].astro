@@ -8,17 +8,17 @@ const data = await response.json();
 const dataRes = data.results;
 
 
-  return dataRes.map(({ gender, name, email }) => {
+  return dataRes.map(({ gender, email }) => {
   console.log({gender})
     return {
       params: { gender },
-      props: { name, email },
+      props: { email },
     };
   });
 }
 
-const { gender} = Astro.params;
-const { name, email } = Astro.props;
+const { gender} = Astro.request.params;
+const { email } = Astro.props;
 
 
 ---
