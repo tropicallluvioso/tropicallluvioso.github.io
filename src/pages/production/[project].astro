@@ -1,0 +1,49 @@
+---
+export async function getStaticPaths() {
+
+const response = await fetch('https://randomuser.me/api/?results=6');
+const data = await response.json();
+const dataRes = data.results;
+//console.log(dataRes[0].gender)
+
+
+  return [
+    { 
+      params: { 
+         project: dataRes[0].gender
+         },
+         props:  dataRes
+    }
+    
+  ];
+}
+
+const { project } = Astro.params;
+const { data } = Astro.props;
+console.log(Astro.props[0])
+---
+
+<h1>this is {project}</h1>
+
+<p>{data}</p>
+
+
+---
+const response = await fetch('https://randomuser.me/api/?results=6');
+const data = await response.json();
+const dataRes = data.results;
+
+const { slug } = Astro.params;
+const page = pages.find((page) => page.slug === slug);
+if (!page) return Astro.redirect("/404");
+const { title, text } = page;
+---
+<html>
+<head>
+  <title>{title}</title>
+</head>
+<body>
+  <h1>{title}</h1>
+  <p>{text}</p>
+</body>
+</html>
