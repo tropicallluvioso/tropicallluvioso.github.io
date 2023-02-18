@@ -21,7 +21,7 @@ let {title} = Astro.props;
     <figcaption>
       <h3>{person.name.first}</h3>
       <p class="content"> {person.gender}</p>
-      <a class="content" href="#">{person.email}</a>
+      <a class="content" href={`/production/${person.gender}`}>{person.email}</a>
 
     </figcaption>
 
