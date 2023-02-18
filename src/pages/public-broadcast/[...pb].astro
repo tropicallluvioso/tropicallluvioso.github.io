@@ -10,16 +10,16 @@ const data = await response.json();
 const dataRes = data.results;
 
 
-  return dataRes.map(({ name, email }) => {
-
+  return dataRes.map(({ gender, email }) => {
+    var pb = gender
     return {
-      params: { name },
+      params: { pb },
       props: { email },
     };
   });
 }
 
-const { name } = Astro.params;
+const { pb } = Astro.params;
 const { email } = Astro.props;
 
 
@@ -34,7 +34,7 @@ const { email } = Astro.props;
     <label for="option1">Galería</label>
     <article>
       <h2>Galería</h2>
-      <p>{name.first}</p>
+      <p>{pb}</p>
     </article>
     </figure>
     <figure id="section2">
@@ -42,7 +42,7 @@ const { email } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
-        <p>{name.first} ficha</p>
+        <p>{pb} ficha</p>
       </article>
     </figure>
     <figure id="section3">
