@@ -1,12 +1,22 @@
 ---
-export function getStaticPaths() {
+export async function getStaticPaths() {
+
+const response = await fetch('https://randomuser.me/api/?results=6');
+const data = await response.json();
+const dataRes = data.results;
+console.log(dataRes[0].gender)
+
   return [
-    {params: {project: 'clifford'}},
-    {params: {project: 'rover'}},
-    {params: {project: 'spot'}},
+    { 
+      params: { 
+         project: dataRes[0].gender, data:dataRes[0].name.first} 
+    },
   ];
 }
 
 const { project } = Astro.params;
 ---
-<div>Good dog, {project}!</div>
+
+<h1>this is {project}, a decent car</h1>
+<p>{data}</p>
+
