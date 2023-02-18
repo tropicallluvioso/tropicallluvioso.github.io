@@ -324,9 +324,5 @@ p {
 
 
 .tabordion {
-  position: relative;
-  width: 80%;
-  color: #30455c;
-  margin: 0;
-
+  background:white;
 }
