@@ -25,14 +25,16 @@ const { email } = Astro.props;
 
 ---
 <MainLayout>
-
+<div class="after-header-space"></div>
+<div class="center-self">
 <div class="tabordion">
-{gender}
+
   <figure id="section1">
     <input type="radio" name="sections" id="option1" checked>
     <label for="option1"> Galería</label>
     <article>
       <h2>Galería</h2>
+      <p>{gender}</p>
     </article>
     </figure>
     <figure id="section2">
@@ -40,6 +42,7 @@ const { email } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
+        <p>{gender} ficha</p>
       </article>
     </figure>
     <figure id="section3">
@@ -47,7 +50,8 @@ const { email } = Astro.props;
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
+        <p>{email} sinopsis</p>
       </article>
     </figure>
-</div>
+</div></div>
 </MainLayout>
