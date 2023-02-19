@@ -25,5 +25,5 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
         backend: {
           name: 'git-gateway',
           branch: 'master',
-        }})],
+        }}})],
 });

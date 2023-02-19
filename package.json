@@ -4,7 +4,8 @@
     "node": "16.x"
   },
   "dependencies": {
-    "astro": "^2.0.12"
+    "astro": "^2.0.13",
+    "astro-netlify-cms": "^0.5.3"
   },
   "scripts": {
     "start": "astro dev",
