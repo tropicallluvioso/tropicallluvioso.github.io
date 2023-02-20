@@ -439,11 +439,15 @@ const $$Astro = createAstro();
 const $$About = createComponent(async ($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro, $$props, $$slots);
   Astro2.self = $$About;
+  const response = await fetch("https://my-json-server.typicode.com/smosgasbord/fedePortfolio/db");
+  const data = await response.json();
+  const about = data.about.description;
+  console.log(about);
   return renderTemplate`${renderComponent($$result, "MainLayout", $$MainLayout, { "title": "About" }, { "default": ($$result2) => renderTemplate`${maybeRenderHead($$result2)}<div class="after-header-space"></div><div class="container center-content">
 <h1 class="center-self" class="title">About</h1>
 <div class="aboutText">
   <p>
-        Tropical Lluvioso es un estudio de producción trans-caribeño que acompaña la gestación de relatos cinematográficos, institucionales y públicos. Hacemos películas que desafían las fronteras desde su periferia, abrazando la fluidez del género cinematográfico y negando los binarios de la ficción y el documental. Maquinamos historias con sus gestoras desde su escritura [Soberane (2022, Cuba, premio mejor cortometraje Locarno Film Festival) y Ánima (2022, Cuba, premio mejor cortometraje latinoamericano en el Festival Internacional de Cine de Mar del Plata)] y acompañándolas en su producción [Sotavento (2021, Venezuela, premio mejor cortometraje mercosureño BAFICI), Mulheres Árvore (2022, Brasil, selección oficial Rio Film Festival) y Nara (2021, Cuba, selección oficial Festival Internacional del Nuevo Cine Latinoamericano)]. Gestamos audiovisuales de interés y acceso público, como ¡Suave un Toque! (2017, Costa Rica, Premio Nuevas Miradas en la Televisión) y acompañamos la comunicación estratégica de organizaciones públicas costarricenses como la Universidad de Costa Rica y organismos internacionales como la Comisión Interamericana de Derechos Humanos. Trabajamos en los territorios ancestrales y usurpados de los pueblos de Abya Yala, incluyendo los territorios de los pueblos Bribri, Cabécar, Ngäbe-Buglé, Brunca, Brörán, Chorotega, Maleku y Huetar.
+       ${about}
   </p></div></div>` })}`;
 }, "/app/src/pages/about.astro");
 
