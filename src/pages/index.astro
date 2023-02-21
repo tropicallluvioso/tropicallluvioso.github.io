@@ -8,6 +8,10 @@ const data = await response.json();
 const dataRes = data.home.stills;
 console.log(dataRes[0].image.id)
 
+{dataRes.map((still) => 
+ let image "https://ucarecdn.com/"+still.image.id
+)}
+
 let {title} = Astro.props; 
 ---
 
@@ -16,8 +20,9 @@ let {title} = Astro.props;
 <div class="container-slides">
      
       {dataRes.map((still) =>  
+     
       <p></p>
-      <img loading="lazy" class="slide" src="" alt={image}
+      <img loading="lazy" class="slide" src={image} alt={still.image.id}
       >)}
       </div>
 </MainLayout>
