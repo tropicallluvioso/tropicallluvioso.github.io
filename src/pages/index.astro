@@ -6,7 +6,7 @@ import '../styles/slideshow.css';
 const response = await fetch('https://my-json-server.typicode.com/smosgasbord/fedePortfolio/es');
 const data = await response.json();
 const dataRes = data.home.stills;
-console.log(dataRes)
+console.log(dataRes[0].image.id)
 
 let {title} = Astro.props; 
 ---
@@ -15,11 +15,8 @@ let {title} = Astro.props;
 
 <div class="container-slides">
      
-      {dataRes.map((image) => 
-      
-      <img loading="lazy" class="slide" src={`https://ucarecdn.com/${person.gender}`} alt="">
-      )}
-      
+      {dataRes.map((image) =>  
+      <img loading="lazy" class="slide" src={image.id} alt={image.id}>)}
       </div>
 </MainLayout>
 
