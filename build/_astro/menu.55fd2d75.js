@@ -1,0 +1,1 @@
+const t=document.querySelector(".menu_button"),o=document.querySelector(".menu_overlay"),n=document.querySelectorAll(".bar");t.addEventListener("click",function(){o.classList.toggle("open"),n.forEach(e=>e.classList.toggle("close"))});
