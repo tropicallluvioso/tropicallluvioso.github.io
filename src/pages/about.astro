@@ -2,10 +2,10 @@
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
 
-const response = await fetch('https://my-json-server.typicode.com/smosgasbord/fedePortfolio/db');
-const data = await response.json();
-const about = data.about.description
-console.log(about)
+const response = await fetch('https://my-json-server.typicode.com/smosgasbord/fedePortfolio/');
+//const data = await response.json();
+//const about = data.about.description
+//console.log(about)
 
 ---
 
@@ -15,7 +15,7 @@ console.log(about)
 <h1 class="center-self" class="title">About</h1>
 <div class="aboutText">
   <p>
-       {about}
+ 
   </p></div></div>
 </MainLayout>
 
