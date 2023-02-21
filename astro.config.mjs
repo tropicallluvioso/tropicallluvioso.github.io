@@ -1,7 +1,7 @@
 import { defineConfig } from "astro/config";
 // @ts-check
 
-import NetlifyCMS from 'astro-netlify-cms';
+
 
 // https://astro.build/config
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
@@ -18,12 +18,5 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
       // }
     }
   },
-  integrations: [
-    NetlifyCMS({
-      config: {
-        // Use Netlify’s “Git Gateway” authentication and target our default branch
-        backend: {
-          name: 'git-gateway',
-          branch: 'master',
-        }}})],
+
 });

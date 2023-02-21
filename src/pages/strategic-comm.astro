@@ -19,7 +19,7 @@ let {title} = Astro.props;
 <div class="container-slides">
      
       {dataRes.map((person) => 
-      <img class="slide" src={person.picture.large} alt="">
+      <img class="slide" loading="lazy" src={person.picture.large} alt="">
       )}
       
       </div>

@@ -17,7 +17,7 @@ let {title} = Astro.props;
 
 <div class="cardContainer">
 {dataRes.map((person) => 
-  <figure class="card"><img src={person.picture.large} alt="sample101" />
+  <figure class="card"><img loading="lazy" src={person.picture.large}  />
     <figcaption>
       <h3>{person.name.first}</h3>
       <p class="content"> {person.gender}</p>
