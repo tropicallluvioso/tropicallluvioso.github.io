@@ -44,8 +44,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
     <div class="container-slides">
      {galeria.map((image) =>  
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
-      >)}
-    </container-slides>
+      >)}</div>
     </article>
     </figure>
     
@@ -67,3 +66,5 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
     </figure>
 </div></div>
 </MainLayout>
+
+<script src="../../components/auto-slideshow.js"></script>

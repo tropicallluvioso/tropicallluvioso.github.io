@@ -9,6 +9,8 @@ import data from "./db.json"
 const stills = data.es.strategic_comm.stills;
 const text = data.es.strategic_comm.text;
 
+console.log(text)
+
 
 let {title} = Astro.props; 
 
@@ -21,7 +23,7 @@ let {title} = Astro.props;
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${still.image.id}/`} alt=""
       >)}
       </div>
-       <p class="pb-data"></p>
+       <p class="pb-data">{text}</p>
   
 </MainLayout>
 
