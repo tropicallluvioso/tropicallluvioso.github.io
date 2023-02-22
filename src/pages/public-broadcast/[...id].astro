@@ -8,7 +8,7 @@ export async function getStaticPaths() {
 const response = await fetch('https://randomuser.me/api/?results=2');
 const data = await response.json();
 const dataRes = data.results;
-
+console.log(dataRes)
 
   return dataRes.map(({ gender, email }) => {
     var pb = gender

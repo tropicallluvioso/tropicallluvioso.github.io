@@ -2,29 +2,33 @@
 import MainLayout from "../../layouts/MainLayout.astro"
 import '../../styles/main.css';
 import "../../styles/project.css"
+
 export async function getStaticPaths() {
 
-
-const response = await fetch('https://randomuser.me/api/?results=6');
+const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fedePortfolio/main/db.json');
 const data = await response.json();
-const dataRes = data.results;
 
 
-  return dataRes.map(({ gender, email }) => {
+const projects = data.es.production
+
+console.log(projects)
+  return projects.map(({ id }) => {
 
     return {
-      params: { gender },
-      props: { email },
+      params: { id },
+      props: { projects},
     };
   });
 }
 
-const { gender} = Astro.params;
-const { email } = Astro.props;
+const { id } = Astro.params;
+const { project } = Astro.props;
+
 
 
 ---
 <MainLayout>
+<h1>{project.tituloProyecto}</h1>
 <div class="after-header-space"></div>
 <div class="center-self">
 <div class="tabordion">
@@ -33,8 +37,8 @@ const { email } = Astro.props;
     <input type="radio" name="sections" id="option1" checked>
     <label for="option1"> Galería</label>
     <article>
-      <h2>Galería</h2>
-      <p>{gender}</p>
+    <h2>Galeria</h2>
+      <img src={project.galeria.image.id}>
     </article>
     </figure>
     <figure id="section2">
@@ -42,7 +46,7 @@ const { email } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
-        <p>{gender} ficha</p>
+        <p>{project.ficha}</p>
       </article>
     </figure>
     <figure id="section3">
@@ -50,7 +54,7 @@ const { email } = Astro.props;
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
-        <p>{email} sinopsis</p>
+        <p>{project.sinopsis}</p>
       </article>
     </figure>
 </div></div>
