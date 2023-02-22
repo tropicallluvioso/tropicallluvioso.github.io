@@ -12,11 +12,11 @@ const data = await response.json();
 const projects = data.es.production
 
 console.log(projects)
-  return projects.map(({ id }) => {
+  return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
 
     return {
       params: { id },
-      props: { ficha, sinopsis, galeria, tituloProyecto},
+      props: { ficha, sinopsis, galeria, tituloProyecto}
     };
   });
 }
@@ -28,19 +28,22 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
 
 ---
 <MainLayout>
-<h1>{tituloProyecto}</h1>
+
 <div class="after-header-space"></div>
+<h1 class="center-content">{tituloProyecto}</h1>
 <div class="center-self">
 <div class="tabordion">
 
   <figure id="section1">
+  
     <input type="radio" name="sections" id="option1" checked>
     <label for="option1"> Galería</label>
     <article>
     <h2>Galeria</h2>
-      <img src={galeria.image.id}>
+      <img src="">
     </article>
     </figure>
+    
     <figure id="section2">
       <input type="radio" name="sections" id="option2" checked>
       <label for="option2">Ficha</label>
