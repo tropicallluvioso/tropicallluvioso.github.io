@@ -7,7 +7,7 @@ const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fede
 const data = await response.json();
 console.log(data)
 
-const projects = data.es.production.projects
+const projects = data.es.production
 
 
 let {title} = Astro.props;
@@ -17,11 +17,11 @@ let {title} = Astro.props;
 
 <div class="cardContainer">
 {projects.map((project) => 
-  <figure class="card"><img loading="lazy" src={person.project}  />
+  <figure class="card"><img loading="lazy" src={`https://ucarecdn.com/${project.galeria[0].image.id}/`}  />
     <figcaption>
-      <h3>{person.name.first}</h3>
-      <p class="content"> {person.gender}</p>
-      <a class="content" href={`/production/${person.gender}`}>{person.email}</a>
+      <h3>{project.tituloProyecto}</h3>
+      <p class="content"> {project.sinopsis}</p>
+      <a class="content" href={`/production/${project.id}`}>Leer Más</a>
 
     </figcaption>
 
