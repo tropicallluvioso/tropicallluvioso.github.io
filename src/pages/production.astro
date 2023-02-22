@@ -3,11 +3,11 @@ import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
 import '../styles/cards.css';
 
-const response = await fetch('https://randomuser.me/api/?results=6');
+const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fedePortfolio/main/db.json');
 const data = await response.json();
-const dataRes = data.results;
+console.log(data)
 
-
+const projects = data.es.production.projects
 
 
 let {title} = Astro.props;
@@ -16,8 +16,8 @@ let {title} = Astro.props;
 <MainLayout title="Production - Tropical Lluvioso">
 
 <div class="cardContainer">
-{dataRes.map((person) => 
-  <figure class="card"><img loading="lazy" src={person.picture.large}  />
+{projects.map((project) => 
+  <figure class="card"><img loading="lazy" src={person.project}  />
     <figcaption>
       <h3>{person.name.first}</h3>
       <p class="content"> {person.gender}</p>
