@@ -2,28 +2,32 @@
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
 import '../styles/slideshow.css';
+import data2 from "db.json"
 
-//import Slideshow from "../components/Slideshow.astro"
+console.log(data2.es.home.text)
 
-const response = await fetch('https://randomuser.me/api/?results=6');
+const response = await fetch('https://my-json-server.typicode.com/smosgasbord/fedePortfolio/es');
 const data = await response.json();
-const dataRes = data.results;
+const dataRes = data.home.stills;
+console.log(dataRes[0].image.id)
+
+{dataRes.map((still) => 
+ still.image.id = "https://ucarecdn.com/"+still.image.id+"/"
+)}
+
 
 let {title} = Astro.props; 
 
 ---
 
 <MainLayout title="Tropical Lluvioso  ">
-
-
 <div class="container-slides">
      
-      {dataRes.map((person) => 
-      <img class="slide" loading="lazy" src={person.picture.large} alt="">
-      )}
-      
+      {dataRes.map((still) =>  
+      <img loading="lazy" class="slide" src={still.image.id} alt={still.image.id}
+      >)}
       </div>
-       <p class="pb-data">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias magni possimus et officia voluptates, illum, nulla, esse inventore similique tempore ipsum quos quas debitis ex laudantium nobis suscipit architecto quis? Consequuntur voluptatem alias fugit doloremque maiores similique reprehenderit saepe, quasi iure in reiciendis perspiciatis inventore esse error recusandae molestiae, laborum fuga rerum velit porro. Pariatur amet molestias ipsam labore quam excepturi minima in quae porro consequatur! Officia nulla omnis autem beatae nihil perferendis labore quisquam fugiat voluptates corrupti! Inventore autem eos, at nesciunt quibusdam suscipit reprehenderit. Exercitationem, quis nulla porro quasi nisi totam hic animi repudiandae. Fugit animi vitae nihil?</p>
+       <p class="pb-data"></p>
   
 </MainLayout>
 

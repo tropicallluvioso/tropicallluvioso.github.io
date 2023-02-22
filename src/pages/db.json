@@ -1,0 +1,365 @@
+{
+  "socials": {
+    "instagram": "https://instagram.com/tropical.lluvioso"
+  },
+  "es": {
+    "home": {
+      "title": "Portfolio",
+      "text": "español",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ]
+    },
+    "about": {
+      "title": "Nosotrxs",
+      "text": "<strong>Tropical Lluvioso </strong>es un estudio de producción trans-caribeño que acompaña la gestación de relatos cinematográficos, institucionales y públicos. Hacemos películas que desafían las fronteras desde su periferia, abrazando la fluidez del género cinematográfico y negando los binarios de la ficción y el documental. Maquinamos historias con sus gestoras desde su escritura [Soberane (2022, Cuba, premio mejor cortometraje Locarno Film Festival) y Ánima (2022, Cuba, premio mejor cortometraje latinoamericano en el Festival Internacional de Cine de Mar del Plata)] y acompañándolas en su producción [Sotavento (2021, Venezuela, premio mejor cortometraje mercosureño BAFICI), Mulheres Árvore (2022, Brasil, selección oficial Rio Film Festival) y Nara (2021, Cuba, selección oficial Festival Internacional del Nuevo Cine Latinoamericano)]. Gestamos audiovisuales de interés y acceso público, como ¡Suave un Toque! (2017, Costa Rica, Premio Nuevas Miradas en la Televisión) y acompañamos la comunicación estratégica de organizaciones públicas costarricenses como la Universidad de Costa Rica y organismos internacionales como la Comisión Interamericana de Derechos Humanos. Trabajamos en los territorios ancestrales y usurpados de los pueblos de Abya Yala, incluyendo los territorios de los pueblos Bribri, Cabécar, Ngäbe-Buglé, Brunca, Brörán, Chorotega, Maleku y Huetar."
+    },
+    "strategic-comm": {
+      "title": "Comunicación Estratégica",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ]
+    }
+    }
+  },
+  "en": {
+    "home": {
+      "text": "inglés",
+      "title": "Portafolio",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "text": "Tropical Lluvioso is a trans-Caribbean production studio that accompanies the gestation of cinematographic, institutional and public stories. We make films that defy borders from their periphery, embracing the fluidity of the film genre and denying the binaries of fiction and documentary. We fabricate stories with their managers from their writing [Soberane (2022, Cuba, Locarno Film Festival best short film award) and Ánima (2022, Cuba, best Latin American short film award at the Mar del Plata International Film Festival)] and accompanying them in their production [Sotavento (2021, Venezuela, BAFICI Best Mercosuran Short Film Award), Mulheres Árvore (2022, Brazil, Rio Film Festival official selection) and Nara (2021, Cuba, International Festival of New Latin American Cinema official selection)].  We create audiovisuals of interest and public access, such as ¡Suave un Toque! (2017, Costa Rica, Nuevas Miradas en la Televisión Award) and we accompany the strategic communication of Costa Rican public organizations such as the University of Costa Rica and international organizations such as the Inter-American Commission on Human Rights. We work in the ancestral and usurped territories of the Abya Yala peoples, including the territories of the Bribri, Cabécar, Ngäbe-Buglé, Brunca, Brörán, Chorotega, Maleku and Huetar peoples."
+    },
+    "strategic-comm": {
+      "title": "Strategic Communications",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ]
+    }
+    }
+  }
+}
