@@ -6,15 +6,8 @@ import data from "./db.json"
 
 
 
-const stills = data.es.home.stills;
-
-
-/*{stills.map((still) => 
-  
-  still.image.id = "https://ucarecdn.com/"+still.image.id+"/"
-)}*/
-
-console.log(stills)
+const stills = data.es.strategic_comm.stills;
+const text = data.es.strategic_comm.text;
 
 
 let {title} = Astro.props; 
@@ -25,7 +18,7 @@ let {title} = Astro.props;
 <div class="container-slides">
      
       {stills.map((still) =>  
-      <img loading="lazy" class="slide" src={`/production/${person.gender}`} alt={still.image.id}
+      <img loading="lazy" class="slide" src={`https://ucarecdn.com/${still.image.id}/`} alt=""
       >)}
       </div>
        <p class="pb-data"></p>
