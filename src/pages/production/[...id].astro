@@ -16,19 +16,19 @@ console.log(projects)
 
     return {
       params: { id },
-      props: { projects},
+      props: { ficha, sinopsis, galeria, tituloProyecto},
     };
   });
 }
 
 const { id } = Astro.params;
-const { project } = Astro.props;
+const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
 
 
 
 ---
 <MainLayout>
-<h1>{project.tituloProyecto}</h1>
+<h1>{tituloProyecto}</h1>
 <div class="after-header-space"></div>
 <div class="center-self">
 <div class="tabordion">
@@ -38,7 +38,7 @@ const { project } = Astro.props;
     <label for="option1"> Galería</label>
     <article>
     <h2>Galeria</h2>
-      <img src={project.galeria.image.id}>
+      <img src={galeria.image.id}>
     </article>
     </figure>
     <figure id="section2">
@@ -46,7 +46,7 @@ const { project } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
-        <p>{project.ficha}</p>
+        <p>{ficha}</p>
       </article>
     </figure>
     <figure id="section3">
@@ -54,7 +54,7 @@ const { project } = Astro.props;
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
-        <p>{project.sinopsis}</p>
+        <p>{sinopsis}</p>
       </article>
     </figure>
 </div></div>
