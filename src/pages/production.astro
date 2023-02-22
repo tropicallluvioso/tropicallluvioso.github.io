@@ -19,7 +19,7 @@ let {title} = Astro.props;
 <h1 class="center-content">Production{projects.title}</h1>
 <div class="cardContainer">
 {projects.map((project) => 
-  <figure class="card"><img loading="lazy" src={`https://ucarecdn.com/${project.galeria[0].image.id}/`}  />
+  <figure class="card"><img  src={`https://ucarecdn.com/${project.galeria[0].image.id}/-/format/webp/`}  />
     <figcaption>
       <h3>{project.tituloProyecto}</h3>
       <p class="content"> {project.sinopsis}</p>
