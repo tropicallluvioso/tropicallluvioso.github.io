@@ -8,7 +8,7 @@ const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fede
 const data = await response.json();
 console.log(data)
 
-const projects = data.es.production
+const projects = data.es.public_broadcasting;
 
 
 let {title} = Astro.props;
@@ -16,14 +16,14 @@ let {title} = Astro.props;
 
 <MainLayout title="Public Broadcasting - Tropical Lluvioso">
 <div class="after-header-space"></div>
-<h1 class="center-content">Production</h1>
+<h1 class="center-content">Public Broadcasting</h1>
 <div class="cardContainer">
 {projects.map((project) => 
   <figure class="card"><img loading="lazy" src={`https://ucarecdn.com/${project.galeria[0].image.id}/`}  />
     <figcaption>
       <h3>{project.tituloProyecto}</h3>
       <p class="content"> {project.sinopsis}</p>
-      <a class="content btn center-content" href={`/production/${project.id}`}>Leer Más</a>
+      <a class="content btn center-content" href={`/public-broadcasting/${project.id}`}>Leer Más</a>
 
     </figcaption>
 
