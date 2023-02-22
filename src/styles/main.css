@@ -21,7 +21,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
+  padding: 0 20px 0 50px;
   width: 100%;
   z-index: 5;
   height: 7em;
@@ -219,10 +219,17 @@ footer {
 }
 .socials > span {
   padding: 5px;
+  cursor:pointer;
 }
+
+
 
 svg {
   fill: white;
+}
+
+svg:hover {
+  fill: red;
 }
 
 .aboutText {
