@@ -1,4 +1,5 @@
 ---
+import RichTextRenderer from '@caisy/rich-text-astro-renderer';
 import MainLayout from "../../layouts/MainLayout.astro"
 import '../../styles/main.css';
 import "../../styles/project.css";
@@ -11,7 +12,7 @@ const data = await response.json();
 
 
 const projects = data.es.public_broadcasting
-console.log(projects[0].id)
+
 
   return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
 
@@ -39,7 +40,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
-        <p>{sinopsis}</p>
+         <RichTextRenderer node={sinopsis}/>
       </article>
     </figure>
     <figure id="section2">
@@ -47,7 +48,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
-        <p>{ficha}</p>
+         <RichTextRenderer node={ficha}/>
       </article>
     </figure>
   <figure id="section1">

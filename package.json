@@ -5,7 +5,8 @@
   },
   "dependencies": {
     "astro": "^2.0.13",
-    "astro-netlify-cms": "^0.5.3"
+    "astro-netlify-cms": "^0.5.3",
+    "@caisy/rich-text-astro-renderer": "^0.1.2"
   },
   "scripts": {
     "start": "astro dev",
