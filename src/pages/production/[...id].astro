@@ -1,9 +1,13 @@
 ---
-import RichTextRenderer from '@caisy/rich-text-astro-renderer';
+
 import MainLayout from "../../layouts/MainLayout.astro"
 import '../../styles/main.css';
 import "../../styles/project.css";
 import '../../styles/slideshow.css';
+import escapeJSON from "escape-json-node";
+
+//function escapeJSON(string) { 
+//    return string.replace(/[\n"\&\r\t\b\f]/g, '\\$&'); }
 
 export async function getStaticPaths() {
 
@@ -13,17 +17,13 @@ const data = await response.json();
 
 const projects = data.es.production
 
-function escapeJSON(string) { 
 
-    return string.replace(/[\n"\&\r\t\b\f]/g, '\\$&');
-    
-}
 
 projects.map(( project) => {
-project.sinopsis = escapeJSON(project.sinopsis)
+escapeJSON(project.sinopsis)
 console.log(escapeJSON(project.sinopsis))
+//console.log(project.sinopsis)
 })
-
 
 
   return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
@@ -52,7 +52,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
-        <p>{sinopsis}</p>
+        <p set:html={sinopsis}></p>
       </article>
     </figure>
     <figure id="section2">
@@ -60,7 +60,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
-       <p>{ficha}</p>
+       <p set:html={ficha}></p>
       </article>
     </figure>
   <figure id="section1">

@@ -40,7 +40,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
-         <RichTextRenderer node={sinopsis}/>
+        <p set:html={sinopsis}></p>
       </article>
     </figure>
     <figure id="section2">
@@ -48,7 +48,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <label for="option2">Ficha</label>
       <article>
         <h2>Ficha</h2>
-         <RichTextRenderer node={ficha}/>
+       <p set:html={ficha}></p>
       </article>
     </figure>
   <figure id="section1">

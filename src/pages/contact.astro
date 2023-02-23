@@ -17,7 +17,7 @@ let {title} = Astro.props;
 <div class="container center-content pd-small">
   <div class="center">
   <h1 class="pd-small">{contact.title}</h1>
-  <div class="container pd-small">{contact.text}
+  <div class="container pd-small"  set:html={contact.text}>
     </div></div>
     <div class="container  pd-small">
   <form target="_blank" class="center" action="https://formsubmit.co/consultas@tropicallluvioso.com" method="POST">
