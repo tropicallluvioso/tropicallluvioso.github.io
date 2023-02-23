@@ -11,13 +11,13 @@ const data = await response.json();
 
 
 const projects = data.es.public_broadcasting
-
+console.log(projects[0].id)
 
   return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
 
     return {
       params: { id },
-      props: { id, ficha, sinopsis, galeria, tituloProyecto}
+      props: { ficha, sinopsis, galeria, tituloProyecto}
     };
   });
 }
