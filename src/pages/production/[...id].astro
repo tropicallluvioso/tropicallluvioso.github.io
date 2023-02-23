@@ -13,9 +13,21 @@ const data = await response.json();
 
 const projects = data.es.production
 
+function escapeJSON(string) { 
+
+    return string.replace(/[\n"\&\r\t\b\f]/g, '\\$&');
+    
+}
+
+projects.map(( project) => {
+project.sinopsis = escapeJSON(project.sinopsis)
+console.log(escapeJSON(project.sinopsis))
+})
+
+
 
   return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
-
+  
     return {
       params: { id },
       props: { id, ficha, sinopsis, galeria, tituloProyecto}
