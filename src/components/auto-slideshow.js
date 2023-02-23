@@ -1,4 +1,4 @@
-const imgs = document.querySelectorAll(".container-slides .slide");
+const imgs = document.querySelectorAll(".container-slides, .galeria-slides .slide");
 console.log(imgs)
 
 

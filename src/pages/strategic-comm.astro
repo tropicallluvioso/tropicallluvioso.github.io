@@ -22,7 +22,7 @@ let {title} = Astro.props;
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${still.image.id}/-/format/webp/`} alt=""
       >)}
       </div>
-       <p class="pb-data">{text}</p>
+       <p class="pb-data" set:html={text}></p>
   
 </MainLayout>
 
