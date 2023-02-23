@@ -670,7 +670,7 @@ const $$ = createComponent(async ($$result, $$props, $$slots) => {
     <label for="option1"> Galería</label>
     <article>
     <h2>Galeria</h2>
-    <div class="container-slides">
+    <div class="galeria-slides">
      ${galeria.map((image) => renderTemplate`<img loading="lazy" class="slide"${addAttribute(`https://ucarecdn.com/${image.image.id}/`, "src")} alt="">`)}</div>
     </article>
     </figure>
