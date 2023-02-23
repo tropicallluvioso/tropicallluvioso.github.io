@@ -6,9 +6,10 @@ import '../styles/cards.css';
 
 const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fedePortfolio/main/db.json');
 const data = await response.json();
-console.log(data)
+
 
 const projects = data.es.public_broadcasting;
+console.log(projects)
 
 
 let {title} = Astro.props;

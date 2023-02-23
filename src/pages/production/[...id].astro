@@ -12,7 +12,7 @@ const data = await response.json();
 
 const projects = data.es.production
 
-console.log(projects)
+
   return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
 
     return {
