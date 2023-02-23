@@ -1,57 +1,71 @@
 ---
 import MainLayout from "../../layouts/MainLayout.astro"
 import '../../styles/main.css';
-import "../../styles/project.css"
+import "../../styles/project.css";
+import '../../styles/slideshow.css';
+
 export async function getStaticPaths() {
 
-
-const response = await fetch('https://randomuser.me/api/?results=2');
+const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fedePortfolio/main/db.json');
 const data = await response.json();
-const dataRes = data.results;
-console.log(dataRes)
 
-  return dataRes.map(({ gender, email }) => {
-    var pb = gender
+
+const projects = data.es.public_broadcasting
+
+console.log(projects)
+  return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
+
     return {
-      params: { pb },
-      props: { email },
+      params: { id },
+      props: { id, ficha, sinopsis, galeria, tituloProyecto}
     };
   });
 }
 
-const { pb } = Astro.params;
-const { email } = Astro.props;
+const { id } = Astro.params;
+const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
+
 
 
 ---
 <MainLayout>
+
 <div class="after-header-space"></div>
+<h1 class="center-content">{tituloProyecto}</h1>
 <div class="center-self">
 <div class="tabordion">
-
-  <figure id="section1">
-    <input type="radio" name="sections" id="option1" checked>
-    <label for="option1">Galería</label>
-    <article>
-      <h2>Galería</h2>
-      <p>{pb}</p>
-    </article>
-    </figure>
-    <figure id="section2">
-      <input type="radio" name="sections" id="option2" checked>
-      <label for="option2">Ficha</label>
-      <article>
-        <h2>Ficha</h2>
-        <p>{pb} ficha</p>
-      </article>
-    </figure>
-    <figure id="section3">
+  <figure id="section3">
       <input type="radio" name="sections" id="option3" checked>
       <label for="option3">Sinopsis</label>
       <article>
         <h2>Sinopsis</h2>
-        <p>{email} sinopsis</p>
+        <p>{sinopsis}</p>
       </article>
     </figure>
+    <figure id="section2">
+      <input type="radio" name="sections" id="option2" >
+      <label for="option2">Ficha</label>
+      <article>
+        <h2>Ficha</h2>
+        <p>{ficha}</p>
+      </article>
+    </figure>
+  <figure id="section1">
+    
+    <input type="radio" name="sections" id="option1" >
+    <label for="option1"> Galería</label>
+    <article>
+    <h2>Galería</h2>
+    <div class="galeria-slides">
+     {galeria.map((image) =>  
+      <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
+      >)}</div>
+    </article>
+    </figure>
+    
+    
+    
 </div></div>
 </MainLayout>
+
+<script src="../../components/auto-slideshow.js"></script>
