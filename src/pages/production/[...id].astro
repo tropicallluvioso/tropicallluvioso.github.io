@@ -34,29 +34,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
 <h1 class="center-content">{tituloProyecto}</h1>
 <div class="center-self">
 <div class="tabordion">
-
-  <figure id="section1">
-  
-    <input type="radio" name="sections" id="option1" checked>
-    <label for="option1"> Galería</label>
-    <article>
-    <!--h2>Galeria</h2-->
-    <div class="galeria-slides">
-     {galeria.map((image) =>  
-      <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
-      >)}</div>
-    </article>
-    </figure>
-    
-    <figure id="section2">
-      <input type="radio" name="sections" id="option2" checked>
-      <label for="option2">Ficha</label>
-      <article>
-        <h2>Ficha</h2>
-        <p>{ficha}</p>
-      </article>
-    </figure>
-    <figure id="section3">
+  <figure id="section3">
       <input type="radio" name="sections" id="option3" checked>
       <label for="option3">Sinopsis</label>
       <article>
@@ -64,6 +42,29 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
         <p>{sinopsis}</p>
       </article>
     </figure>
+    <figure id="section2">
+      <input type="radio" name="sections" id="option2" >
+      <label for="option2">Ficha</label>
+      <article>
+        <h2>Ficha</h2>
+        <p>{ficha}</p>
+      </article>
+    </figure>
+  <figure id="section1">
+    
+    <input type="radio" name="sections" id="option1" >
+    <label for="option1"> Galería</label>
+    <article>
+    <h2>Galería</h2>
+    <div class="galeria-slides">
+     {galeria.map((image) =>  
+      <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
+      >)}</div>
+    </article>
+    </figure>
+    
+    
+    
 </div></div>
 </MainLayout>
 

@@ -7,7 +7,6 @@ h2 {
 .tabordion {
   position: relative;
   width: 80%;
-  color: #30455c;
   margin: 0;
 }
 .tabordion figure {
@@ -28,7 +27,7 @@ h2 {
 }
 .tabordion figure label {
   font-weight: 700;
-
+    color: white;
   cursor: pointer;
   display: block;
   font-size: 1.2em;
@@ -50,10 +49,10 @@ h2 {
   padding: 1em;
   position: relative;
   top: 0;
-  background: #fefffa;
   font-weight: 300;
   line-height: 1.7;
   border-radius: 7px;
+  color: white;
 }
 .tabordion figure article p {
   margin-bottom: 1em;
