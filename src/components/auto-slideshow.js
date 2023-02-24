@@ -1,5 +1,5 @@
-const imgs = document.querySelectorAll(".container-slides, .galeria-slides .slide");
-console.log(imgs)
+const imgs = document.querySelectorAll(".container-slides .slide, .galeria-slides .slide");
+//console.log(imgs)
 
 
 var currentIndex = 0;
@@ -23,7 +23,7 @@ const startAutoSlide = () => {
   setInterval(() => {
     currentIndex >= imgs.length-1 ? currentIndex = 0 : currentIndex++;
     defClass(0, currentIndex);
- console.log(currentIndex)
+ //console.log(currentIndex)
   }, time);
  
 };
