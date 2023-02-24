@@ -73,7 +73,7 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
     <h2>Galería</h2>
     <div class="galeria-slides">
      {galeria.map((image) => 
-     <a href="{`https://ucarecdn.com/${image.image.id}/`}" data-fancybox="">
+     <a href={`https://ucarecdn.com/${image.image.id}/`} data-fancybox="gallery">
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
       ></a>)}</div>
     </article>
@@ -84,5 +84,6 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
 </div></div>
 </MainLayout>
 
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="../../components/fancybox.js" ></script>
 <script src="../../components/auto-slideshow.js"></script>
