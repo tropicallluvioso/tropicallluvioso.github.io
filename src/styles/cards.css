@@ -62,14 +62,14 @@
 }
 
 .card h3,
-.card .content {
+.card .content, .card .content > strong {
     margin: 0 0 10px 0;
   opacity: 0;
   letter-spacing: 1px;
 }
 
 .card h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;
