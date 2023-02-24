@@ -5,6 +5,7 @@
 #776386
 #a18f85
 #726f80
+#716ef7
 #2d283e
 
 
@@ -311,7 +312,7 @@ svg:hover {
     cursor: pointer;
     border: none;
     outline: none;
-    background: rgb(255, 255, 255);
+    background: #776386;
     color: rgb(0, 0, 0);
     height: 60px;
     padding: 0px 34px;
