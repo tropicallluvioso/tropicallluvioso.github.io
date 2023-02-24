@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;600;900&display=swap');
 
+/*
+#00000
+#776386
+#a18f85
+#726f80
+#2d283e
+
+
+*/
+
 * {
   box-sizing: border-box;
   user-select: none;
@@ -163,7 +173,7 @@ h2 * {
   right: 0;
   bottom: 0;
   margin: auto;
-  background: #000;
+  background: #776386;
   z-index: 0;
   -webkit-clip-path: circle(0 at 100% 0);
   clip-path: circle(0 at 100% 0);
@@ -237,6 +247,8 @@ svg:hover {
     display: inline-block;
     padding: 0 5rem;
     line-height:1.5em;
+  background: #a18f85;
+    border-radius: 5px;
 }
 
 .form-group {
