@@ -5,6 +5,7 @@ import '../../styles/main.css';
 import "../../styles/project.css";
 import '../../styles/slideshow.css';
 import escapeJSON from "escape-json-node";
+import "https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
 
 //function escapeJSON(string) { 
 //    return string.replace(/[\n"\&\r\t\b\f]/g, '\\$&'); }
@@ -70,9 +71,10 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
     <article>
     <h2>Galería</h2>
     <div class="galeria-slides">
-     {galeria.map((image) =>  
+     {galeria.map((image) => 
+     <a href="{`https://ucarecdn.com/${image.image.id}/`}" data-fancybox="gallery">
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
-      >)}</div>
+      ></a>)}</div>
     </article>
     </figure>
     
@@ -81,4 +83,5 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
 </div></div>
 </MainLayout>
 
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 <script src="../../components/auto-slideshow.js"></script>
