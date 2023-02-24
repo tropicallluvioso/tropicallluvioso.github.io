@@ -70,7 +70,9 @@ section .bg {
   background-position: center;
 }
 
-
+h1 {
+  color:#a18f85;
+}
 
 
 h2 * {
@@ -211,7 +213,7 @@ h2 * {
 }
 
 .nav_link:hover {
-  color: gray;
+  color: #2d283e;
 }
 
 footer {
@@ -239,7 +241,7 @@ svg {
 }
 
 svg:hover {
-  fill: red;
+  fill: #776386;
 }
 
 .aboutText {

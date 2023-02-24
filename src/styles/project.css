@@ -20,7 +20,7 @@ h2 {
   top: -9999px;
 }
 .tabordion figure input[name="sections"]:checked + label {
-  color: red;
+  color: #776386;
 }
 .tabordion figure input[name="sections"]:checked ~ article {
   display: block;
@@ -39,7 +39,7 @@ h2 {
 }
 
 .tabordion figure label:hover {
-  color: red;
+  color: #776386;
 }
 
 .tabordion figure article {
