@@ -91,6 +91,10 @@ a {
   z-index:4;
 }
 
+.logo:hover {
+  transform: scale(1.031);
+}
+
 .container {
   width: 100%;
   margin-left: auto;
@@ -216,6 +220,7 @@ a {
   padding: 10px;
   color: white;
   text-decoration: none;
+  letter-spacing: .2rem;
 }
 
 .nav_link:hover {
