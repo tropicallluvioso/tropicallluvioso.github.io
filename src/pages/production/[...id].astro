@@ -21,13 +21,6 @@ const projects = data.es.production
 
 
 
-projects.map(( project) => {
-escapeJSON(project.sinopsis)
-console.log(escapeJSON(project.sinopsis))
-//console.log(project.sinopsis)
-})
-
-
   return projects.map(({ id, ficha, sinopsis, galeria, tituloProyecto }) => {
   
     return {

@@ -29,3 +29,5 @@ const startAutoSlide = () => {
 };
 
 startAutoSlide();
+
+console.log("ar")
