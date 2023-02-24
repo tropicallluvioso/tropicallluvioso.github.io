@@ -1,4 +1,6 @@
 export function getDate() {
 var d = new Date();
-return d.getFullYear();
+var year = d.getFullYear();
+  console.log(year)
+  return year
   }
