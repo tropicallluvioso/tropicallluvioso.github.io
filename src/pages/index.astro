@@ -3,16 +3,16 @@ import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
 import '../styles/slideshow.css';
 import data from "./db.json"
-import date from "../components/date.js"
 
-console.log(date)
+
+
 const stills = data.es.strategic_comm.stills;
 
 let {title} = Astro.props; 
 ---
 
 <MainLayout title="Tropical Lluvioso">
-{ date }
+
 <div class="container-slides">
      
       {stills.map((still) =>  

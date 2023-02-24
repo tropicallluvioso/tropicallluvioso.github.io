@@ -39,7 +39,6 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <input type="radio" name="sections" id="option3" checked>
       <label for="option3">Sinopsis</label>
       <article>
-        <h2>Sinopsis</h2>
         <p set:html={sinopsis}></p>
       </article>
     </figure>
@@ -47,7 +46,6 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
       <input type="radio" name="sections" id="option2" >
       <label for="option2">Ficha</label>
       <article>
-        <h2>Ficha</h2>
        <p set:html={ficha}></p>
       </article>
     </figure>
@@ -56,7 +54,6 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
     <input type="radio" name="sections" id="option1" >
     <label for="option1"> Galería</label>
     <article>
-    <h2>Galería</h2>
     <div class="galeria-slides">
      {galeria.map((image) =>  
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
