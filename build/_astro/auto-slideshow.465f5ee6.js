@@ -1,1 +1,0 @@
-const e=document.querySelectorAll(".container-slides, .galeria-slides .slide");console.log(e);var l=0;let i=3e3;const s=(n,o)=>{for(let t=n;t<e.length;t++)e[t].style.display="none";e[o].style.display="block"};s(1,0);const r=()=>{setInterval(()=>{l>=e.length-1?l=0:l++,s(0,l)},i)};r();
