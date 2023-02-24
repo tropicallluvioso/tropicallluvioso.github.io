@@ -215,12 +215,12 @@ a {
 .nav_link {
   display: block;
   font-size: 1.5rem;
-  font-weight:600;
+  font-weight:bold;
   line-height: 30px;
   padding: 10px;
   color: white;
   text-decoration: none;
-  letter-spacing: .2rem;
+  letter-spacing: .052rem;
 }
 
 .nav_link:hover {
