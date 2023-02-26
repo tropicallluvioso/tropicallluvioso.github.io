@@ -15,9 +15,9 @@ console.log(projects)
 let {title} = Astro.props;
 ---
 
-<MainLayout title="Public Broadcasting - Tropical Lluvioso">
+<MainLayout title="Public Broadcast - Tropical Lluvioso">
 <div class="after-header-space"></div>
-<h1 class="center-content">Public Broadcasting</h1>
+<h1 class="center-content">Public Broadcast</h1>
 <div class="cardContainer">
 {projects.map((project) => 
   <figure class="card"><img loading="lazy" src={`https://ucarecdn.com/${project.galeria[0].image.id}/`}  />

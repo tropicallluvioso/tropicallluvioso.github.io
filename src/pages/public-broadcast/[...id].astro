@@ -4,6 +4,7 @@ import MainLayout from "../../layouts/MainLayout.astro"
 import '../../styles/main.css';
 import "../../styles/project.css";
 import '../../styles/slideshow.css';
+import "../../styles/fancybox.css"
 
 export async function getStaticPaths() {
 
@@ -55,9 +56,10 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
     <label for="option1"> Galería</label>
     <article>
     <div class="galeria-slides">
-     {galeria.map((image) =>  
+     {galeria.map((image) => 
+     <a href={`https://ucarecdn.com/${image.image.id}/`} data-fancybox="gallery">
       <img loading="lazy" class="slide" src={`https://ucarecdn.com/${image.image.id}/`} alt=""
-      >)}</div>
+      ></a>)}</div>
     </article>
     </figure>
     
@@ -66,4 +68,6 @@ const {  ficha, sinopsis, galeria, tituloProyecto } = Astro.props;
 </div></div>
 </MainLayout>
 
+<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../../components/fancybox.js" ></script>
 <script src="../../components/auto-slideshow.js"></script>
