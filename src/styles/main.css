@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;600;900&display=swap');
 
 /*
-#00000
+#000000
 #776386
 #a18f85
 #726f80
 #716ef7
-#2d283e
+#2d273c
 
 
 */
@@ -22,7 +22,7 @@ body {
   padding: 0;
   height: 100vh;
   color: white;
-  background: black;
+  background: #2d273c;
  
   font-family: "Archivo", sans-serif;
 }
@@ -72,7 +72,7 @@ section .bg {
 }
 
 h1 {
-  color:#a18f85;
+  color:white;
   /*padding-left: 50px;*/
 }
 
@@ -114,6 +114,7 @@ a {
 
 .row {
   display: flex;
+  max-width: 90%;
 }
 
 .bar::after,
