@@ -213,6 +213,15 @@ a {
   margin-top: 150px;
 }
 
+@media (min-width: 305px) {
+  .nav{
+    text-align:left;
+    margin: 100px 0 0 30px;
+  }
+ 
+}
+
+
 .nav_link {
   display: block;
   font-size: 1.5rem;
