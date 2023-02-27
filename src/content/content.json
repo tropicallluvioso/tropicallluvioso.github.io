@@ -1,1 +1,855 @@
-{}
+{
+  "socials": {
+    "instagram": "https://instagram.com/tropical.lluvioso"
+  },
+  "es": {
+    "home": {
+      "title": "Portfolio",
+      "text": "español",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ]
+    },
+    "about": {
+      "title": "Nosotrxs",
+      "text": "<p><strong>Tropical Lluvioso</strong> es un estudio de producción trans-caribeño que acompaña la gestación de relatos cinematográficos, institucionales y públicos. </p><p>Hacemos películas que desafían las fronteras desde su periferia, abrazando la fluidez del género cinematográfico y negando los binarios de la ficción y el documental. </p><p>Maquinamos historias con sus gestoras desde su escritura [Soberane (2022, Cuba, premio mejor cortometraje<em> Locarno Film Festival)</em> y Ánima (2022, Cuba, premio mejor cortometraje latinoamericano en el <em>Festival Internacional de Cine de Mar del Plata</em>)] y acompañándolas en su producción [Sotavento (2021, Venezuela, premio mejor cortometraje mercosureño <em>BAFICI</em>), Mulheres Árvore (2022, Brasil, selección oficial <em>Rio Film Festival</em>) y Nara (2021, Cuba, selección oficial <em>Festival Internacional del Nuevo Cine Latinoamericano</em>)]. </p><p>Gestamos audiovisuales de interés y acceso público, como ¡Suave un Toque! (2017, Costa Rica, Premio <em>Nuevas Miradas en la Televisión</em>) y acompañamos la comunicación estratégica de organizaciones públicas costarricenses como la Universidad de Costa Rica y organismos internacionales como la Comisión Interamericana de Derechos Humanos. </p><p>Trabajamos en los territorios ancestrales y usurpados de los pueblos de Abya Yala, incluyendo los territorios de los pueblos Bribri, Cabécar, Ngäbe-Buglé, Brunca, Brörán, Chorotega, Maleku y Huetar.</p>"
+    },
+    "strategic_comm": {
+      "title": "Comunicación Estratégica",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ],
+      "text": "Lorem ipsum chamancatualitou"
+    },
+    "production": [
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "202504f1-df80-4711-8402-bec3ce7196df",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "ficha": "El Pozo (2019)",
+        "sinopsis": "<p>El Pozo (2019)</p>",
+        "tituloProyecto": "El Pozo (2019)",
+        "id": "pozo"
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ],
+        "ficha": "Sotavento (2021)",
+        "sinopsis": "Sotavento (2021)",
+        "tituloProyecto": "Sotavento (2021)",
+        "id": "sotavento"
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ],
+        "ficha": "Nara (2021)",
+        "sinopsis": "Nara (2021)",
+        "tituloProyecto": "Nara (2021)",
+        "id": "nara"
+      },
+      {
+        "id": "mulheres",
+        "tituloProyecto": "Mulheres Árvore (2022)",
+        "sinopsis": "Mulheres Árvore (2022)",
+        "ficha": "Mulheres Árvore (2022)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+              "height": 1600,
+              "width": 2560
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ]
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ],
+        "ficha": "El Salón de los Espejos (development)",
+        "sinopsis": "El Salón de los Espejos (development)",
+        "tituloProyecto": "El Salón de los Espejos (development)",
+        "id": "salonEspejos"
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+              "height": 1476,
+              "width": 2880
+            }
+          }
+        ],
+        "links": [
+          {
+            "link": "https://instagram.com"
+          }
+        ],
+        "trailer": "https://youtube.com",
+        "ficha": "I, ii y IiI (2018-2023)",
+        "sinopsis": "I, ii y IiI (2018-2023)",
+        "tituloProyecto": "I, ii y IiI (2018-2023)",
+        "id": "123"
+      }
+    ],
+    "contact": {
+      "text": "Para consultas generales, utilice el siguiente formulario de contacto.",
+      "title": "Contacto"
+    },
+    "screenwriting": [
+      {
+        "tituloProyecto": "Anima (2022)",
+        "id": "anima",
+        "sinopsis": "What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;",
+        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo Screenplay by Fede Blanco &amp; Manuel Mateo",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
+              "height": 600,
+              "width": 1500
+            }
+          }
+        ]
+      },
+      {
+        "tituloProyecto": "Soberane (2022)",
+        "id": "soberane",
+        "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home.",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "cd186a03-9ded-4054-bc02-2414732eddad",
+              "height": 1457,
+              "width": 2870
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "135a6439-d4df-4ae3-9418-60984188232a",
+              "height": 1476,
+              "width": 2874
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "65db88ab-287d-4719-be93-64ff9001873e",
+              "height": 1466,
+              "width": 2865
+            }
+          }
+        ],
+        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara."
+      }
+    ],
+    "public_broadcasting": [
+      {
+        "id": "cual-es-el-plan",
+        "tituloProyecto": "¿Cuál es el Plan?",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "f359f4d8-21ff-4ac2-9c26-133aea6853f0",
+              "height": 1600,
+              "width": 1600
+            }
+          }
+        ],
+        "sinopsis": "Political discussion public radio program.",
+        "ficha": "Created by Sofía González, Natalia Díaz, Fede Blanco &amp; Fo LeonEpisodes available as a podcast on <a href=\"https://open.spotify.com/show/3w8LwjvCkBJVqpMCwDMZV5\" rel=\"noopener noreferrer nofollow\">https://open.spotify.com/show/3w8LwjvCkBJVqpMCwDMZV5</a>"
+      },
+      {
+        "id": "sut",
+        "tituloProyecto": "Suave un Toque",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "59a382bc-4b20-47fe-80ac-a943285a2937",
+              "height": 1365,
+              "width": 2048
+            }
+          }
+        ],
+        "sinopsis": "Political satire newscast for public broadcast.",
+        "ficha": "\"There are few things in television that can be considered a life-changing experience... This show is one of them\" (Roberto A.)\"Blessed be the pot in which a seed was planted that grew up to be the weed plant that whoever created Suave un Toque smoked from!\"&nbsp; (【Ðavïd Ʋ】)Nuevas Miradas en la Televisión Award (Quilmes University, Uruguay)Created by Fede Blanco.Showrunners: Fede Blanco &amp; Fernando Obando"
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/tropical.lluvioso"
+    }
+  },
+  "en": {
+    "home": {
+      "text": "inglés",
+      "title": "Portafolio",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ]
+    },
+    "about": {
+      "title": "About",
+      "text": "Tropical Lluvioso is a trans-Caribbean production studio that accompanies the gestation of cinematographic, institutional and public stories. We make films that defy borders from their periphery, embracing the fluidity of the film genre and denying the binaries of fiction and documentary. We fabricate stories with their managers from their writing [Soberane (2022, Cuba, Locarno Film Festival best short film award) and Ánima (2022, Cuba, best Latin American short film award at the Mar del Plata International Film Festival)] and accompanying them in their production [Sotavento (2021, Venezuela, BAFICI Best Mercosuran Short Film Award), Mulheres Árvore (2022, Brazil, Rio Film Festival official selection) and Nara (2021, Cuba, International Festival of New Latin American Cinema official selection)]. We create audiovisuals of interest and public access, such as ¡Suave un Toque! (2017, Costa Rica, Nuevas Miradas en la Televisión Award) and we accompany the strategic communication of Costa Rican public organizations such as the University of Costa Rica and international organizations such as the Inter-American Commission on Human Rights. We work in the ancestral and usurped territories of the Abya Yala peoples, including the territories of the Bribri, Cabécar, Ngäbe-Buglé, Brunca, Brörán, Chorotega, Maleku and Huetar peoples."
+    },
+    "strategic-comm": {
+      "title": "Strategic Communications",
+      "stills": [
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "dd18d4bb-0edf-4565-889b-c577113d8c92",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "456daa4e-ceb2-454e-bf3b-c6f817b8fa40",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "202504f1-df80-4711-8402-bec3ce7196df",
+            "height": 1080,
+            "width": 1920
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+            "height": 1600,
+            "width": 2560
+          }
+        },
+        {
+          "image": {
+            "provider": "uploadcare",
+            "type": "image",
+            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+            "height": 1476,
+            "width": 2880
+          }
+        }
+      ],
+      "text": "Lorem ipsum chamancatualito"
+    },
+    "production": [
+      {
+        "tituloProyecto": "El Pozo (2019)",
+        "sinopsis": "<p>El Pozo (2019)</p>",
+        "ficha": "El Pozo (2019)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "202504f1-df80-4711-8402-bec3ce7196df",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "id": "pozo"
+      },
+      {
+        "tituloProyecto": "Sotavento (2021)",
+        "sinopsis": "Sotavento (2021)",
+        "ficha": "Sotavento (2021)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ],
+        "id": "sotavento"
+      },
+      {
+        "tituloProyecto": "Nara (2021)",
+        "sinopsis": "Nara (2021)",
+        "ficha": "Nara (2021)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ],
+        "id": "nara"
+      },
+      {
+        "id": "mulheres",
+        "tituloProyecto": "Mulheres Árvore (2022)",
+        "sinopsis": "Mulheres Árvore (2022)",
+        "ficha": "Mulheres Árvore (2022)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
+              "height": 1600,
+              "width": 2560
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ]
+      },
+      {
+        "tituloProyecto": "El Salón de los Espejos (development)",
+        "sinopsis": "El Salón de los Espejos (development)",
+        "ficha": "El Salón de los Espejos (development)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
+              "height": 1600,
+              "width": 2560
+            }
+          }
+        ],
+        "id": "salonEspejos"
+      },
+      {
+        "tituloProyecto": "I, ii y IiI (2018-2023)",
+        "sinopsis": "I, ii y IiI (2018-2023)",
+        "ficha": "I, ii y IiI (2018-2023)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
+              "height": 1476,
+              "width": 2880
+            }
+          }
+        ],
+        "links": [
+          {
+            "link": "https://instagram.com"
+          }
+        ],
+        "trailer": "https://youtube.com",
+        "id": "123"
+      }
+    ],
+    "contact": {
+      "text": "For general inquiries, please use the following contact form.",
+      "title": "Contact"
+    },
+    "screenwriting": [
+      {
+        "id": "anima",
+        "tituloProyecto": "Anima (2022)",
+        "sinopsis": " What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;Directed by Manuel MateoScreenplay by Fede Blanco &amp; Manuel Mateo",
+        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo. Screenplay by Fede Blanco &amp; Manuel Mateo",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
+              "height": 600,
+              "width": 1500
+            }
+          }
+        ]
+      },
+      {
+        "id": "soberane",
+        "tituloProyecto": "Soberane (2022)",
+        "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home. ",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "cd186a03-9ded-4054-bc02-2414732eddad",
+              "height": 1457,
+              "width": 2870
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "135a6439-d4df-4ae3-9418-60984188232a",
+              "height": 1476,
+              "width": 2874
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "65db88ab-287d-4719-be93-64ff9001873e",
+              "height": 1466,
+              "width": 2865
+            }
+          }
+        ],
+        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara."
+      }
+    ],
+    "public-broadcasting": [
+      {
+        "id": "sut",
+        "tituloProyecto": "Suave un Toque",
+        "sinopsis": "Political satire newscast for public broadcast.\"There are few things in television that can be considered a life-changing experience... This show is one of them\" (Roberto A.)\"Blessed be the pot in which a seed was planted that grew up to be the weed plant that whoever created Suave un Toque smoked from!\"&nbsp; (【Ðavïd Ʋ】)Nuevas Miradas en la Televisión Award (Quilmes University, Uruguay)",
+        "ficha": "Created by Fede Blanco. Showrunners: Fede Blanco &amp; Fernando Obando",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "59a382bc-4b20-47fe-80ac-a943285a2937",
+              "height": 1365,
+              "width": 2048
+            }
+          }
+        ]
+      }
+    ],
+    "public_broadcasting": [
+      {
+        "id": "cual-es-el-plan",
+        "tituloProyecto": "¿Cuál es el Plan?",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "f359f4d8-21ff-4ac2-9c26-133aea6853f0",
+              "height": 1600,
+              "width": 1600
+            }
+          }
+        ],
+        "sinopsis": "Political discussion public radio program.",
+        "ficha": "Created by Sofía González, Natalia Díaz, Fede Blanco &amp; Fo LeonEpisodes available as a podcast on <a href=\"https://open.spotify.com/show/3w8LwjvCkBJVqpMCwDMZV5\" rel=\"noopener noreferrer nofollow\">https://open.spotify.com/show/3w8LwjvCkBJVqpMCwDMZV5</a>"
+      },
+      {
+        "id": "sut",
+        "tituloProyecto": "Suave un Toque",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "59a382bc-4b20-47fe-80ac-a943285a2937",
+              "height": 1365,
+              "width": 2048
+            }
+          }
+        ],
+        "sinopsis": "Political satire newscast for public broadcast.",
+        "ficha": "\"There are few things in television that can be considered a life-changing experience... This show is one of them\" (Roberto A.)\"Blessed be the pot in which a seed was planted that grew up to be the weed plant that whoever created Suave un Toque smoked from!\"&nbsp; (【Ðavïd Ʋ】)Nuevas Miradas en la Televisión Award (Quilmes University, Uruguay)Created by Fede Blanco.Showrunners: Fede Blanco &amp; Fernando Obando"
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/tropical.lluvioso"
+    },
+    "strategic_comm": {
+      "title": "Strategic Communications"
+    }
+  }
+}

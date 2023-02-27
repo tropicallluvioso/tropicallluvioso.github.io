@@ -1,7 +1,7 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
-import data from "./db.json"
+import data from "../content/content.json"
 
 const aboutText = data.es.about.text
 
@@ -14,7 +14,7 @@ const aboutText = data.es.about.text
 <h1 class="center-self" class="title">About</h1>
 <div class="aboutText">
   <p set:html={aboutText}>
-
   </p></div></div>
+
 </MainLayout>
 
