@@ -186,7 +186,7 @@ a {
   bottom: 0;
   margin: auto;
   background: #776386;
-  z-index: 0;
+  z-index: 2;
   -webkit-clip-path: circle(0 at 100% 0);
   clip-path: circle(0 at 100% 0);
   transition: clip-path 0.5s 0s cubic-bezier(0.215, 0.61, 0.355,0.5);
@@ -230,7 +230,7 @@ a {
 footer {
   position: fixed;
   bottom: 0;
-  z-index: 99;
+  z-index: 1;
   right: 0;
 }
 
