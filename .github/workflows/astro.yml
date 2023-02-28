@@ -24,7 +24,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  BUILD_PATH: "." # default value when not using subfolders
+  BUILD_PATH: "" # default value when not using subfolders
   # BUILD_PATH: subfolder
 
 jobs:
@@ -72,7 +72,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: dist
+          path: "../dist"
 
   deploy:
     environment:
