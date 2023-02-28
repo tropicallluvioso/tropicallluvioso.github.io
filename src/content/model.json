@@ -1,23 +1,226 @@
 {
-  ":name": "FrontAid CMS Example Model",
-  ":description": "This is a simple example of a FrontAid CMS model. You can change and extend it according to your needs, for example add new fields or restructure it. You can edit this file by cloning this repository and update it with your local editor and push it back into this Git repository. ",
-  "custom-field": {
-    ":description": "This example text is used as a description.",
-    ":type": "line"
-  },
-  "custom-object": {
-    "custom-line": {
+  ":name": "CMS para Tropical Lluvioso",
+  ":locales": [
+    "en",
+    "es"
+  ],
+  "home": {
+    "title": {
       ":type": "line"
     },
-    "custom-text": {
-      ":type": "text"
+    "stills": {
+      ":name": "Stills",
+      ":items": {
+        "image": {
+          ":type": "image"
+        }
+      }
+    },
+    "text": {
+      ":type": "line",
+      ":richtext": true,
+      ":name": "text"
     }
   },
-  "custom-list": {
-    ":items": {
-      "custom-list-item": {
-        ":type": "line"
+  "about": {
+    "title": {
+      ":type": "line"
+    },
+    "text": {
+      ":type": "text",
+      ":richtext": true,
+      ":name": "text"
+    },
+    "link": {
+      ":type": "line",
+      ":name": "link"
+    }
+  },
+  "strategic_comm": {
+    "title": {
+      ":type": "line"
+    },
+    "stills": {
+      ":name": "Stills",
+      ":items": {
+        "image": {
+          ":type": "image"
+        }
       }
+    },
+    "text": {
+      ":type": "text",
+      ":richtext": true,
+      ":name": "text"
+    },
+    "link": {
+      ":type": "line",
+      ":name": "link"
+    }
+  },
+  "contact": {
+    "title": {
+      ":type": "line"
+    },
+    "text": {
+      ":type": "text",
+      ":richtext": true,
+      ":name": "text"
+    },
+    "link": {
+      ":type": "line",
+      ":name": "email"
+    }
+  },
+  "screenwriting": {
+    "title":{
+      ":type":"line"
+    },
+    ":items": {
+      "id":{
+          ":type":"line"
+      },
+        "tituloProyecto":{
+        ":type":"line"
+      }, 
+        "sinopsis": {
+          ":type": "text",
+          ":richtext": true,
+          ":name": "sinopsis"
+        },
+        "ficha": {
+          ":type": "text",
+          ":richtext": true,
+          ":name": "ficha"
+        },
+        "links": {
+          ":name": "links",
+          ":items": {
+            "link": {
+              ":type": "line"
+            }
+          }
+        },
+        "trailer": {
+          ":type": "line",
+          ":name": "trailer"
+        },
+        "galeria": {
+          ":type": "array",
+          ":name": "galeria",
+          ":items": {
+            "image": {
+              ":type": "image"
+            }
+          }
+        }
+      },
+      ":name": "sw-projects"
+    },
+  "production": {
+    "title": {
+      ":type": "line"
+    },
+    ":items": {"id":{
+      ":type":"line"
+  },
+        "tituloProyecto":{
+          ":type":"line"
+        },
+        "sinopsis": {
+          ":type": "text",
+          ":richtext": true,
+          ":name": "sinopsis"
+        },
+        "ficha": {
+          ":type": "text",
+          ":richtext": true,
+          ":name": "ficha"
+        },
+        "links": {
+          ":name": "links",
+          ":items": {
+            "link": {
+              ":type": "line"
+            }
+          }
+        },
+        "trailer": {
+          ":type": "line",
+          ":name": "trailer"
+        },
+        "galeria": {
+          ":type": "array",
+          ":name": "galeria",
+          ":items": {
+            "image": {
+              ":type": "image"
+            }
+          }
+        }
+      },
+      ":name": "prod-projects"
+  },
+  "public_broadcasting": {
+    "title": {
+      ":type": "line"
+    },
+    ":items": {"id":{
+      ":type":"line"
+  },
+        "tituloProyecto":{
+          ":type":"line"
+        },
+        "sinopsis": {
+          ":type": "text",
+          ":richtext": true,
+          ":name": "sinopsis"
+        },
+        "ficha": {
+          ":type": "text",
+          ":richtext": true,
+          ":name": "ficha"
+        },
+        "links": {
+          ":name": "links",
+          ":items": {
+            "link": {
+              ":type": "line"
+            }
+          }
+        },
+        "trailer": {
+          ":type": "line",
+          ":name": "trailer"
+        },
+        "galeria": {
+          ":type": "array",
+          ":name": "galeria",
+          ":items": {
+            "image": {
+              ":type": "image"
+            }
+          }
+        }
+    },
+    ":name": "pb-projects"
+  },
+  "socials": {
+    "instagram": {
+      ":type": "line",
+      ":name": "instagram"
+    },
+    "facebook": {
+      ":type": "line",
+      ":name": "facebook"
+    },
+    "email": {
+      ":type": "line",
+      ":name": "email"
+    },
+    "linkedin": {
+      ":type": "line",
+      ":name": "linkedin"
     }
   }
 }
