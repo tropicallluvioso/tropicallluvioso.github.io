@@ -24,7 +24,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  BUILD_PATH: "" # default value when not using subfolders
+  BUILD_PATH: "." # default value when not using subfolders
   # BUILD_PATH: subfolder
 
 jobs:
@@ -70,9 +70,11 @@ jobs:
             --base "${{ steps.pages.outputs.base_path }}"
         working-directory: ${{ env.BUILD_PATH }}
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: "../dist"
+          path: |
+            /dist/
+            ${{ env.BUILD_PATH }}./dist
 
   deploy:
     environment:
