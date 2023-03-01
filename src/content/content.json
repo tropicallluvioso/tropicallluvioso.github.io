@@ -47,24 +47,6 @@
           "image": {
             "provider": "uploadcare",
             "type": "image",
-            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
-            "height": 1600,
-            "width": 2560
-          }
-        },
-        {
-          "image": {
-            "provider": "uploadcare",
-            "type": "image",
-            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
-            "height": 1600,
-            "width": 2560
-          }
-        },
-        {
-          "image": {
-            "provider": "uploadcare",
-            "type": "image",
             "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
             "height": 1600,
             "width": 2560
@@ -453,24 +435,6 @@
             "provider": "uploadcare",
             "type": "image",
             "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
-            "height": 1600,
-            "width": 2560
-          }
-        },
-        {
-          "image": {
-            "provider": "uploadcare",
-            "type": "image",
-            "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
-            "height": 1600,
-            "width": 2560
-          }
-        },
-        {
-          "image": {
-            "provider": "uploadcare",
-            "type": "image",
-            "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
             "height": 1600,
             "width": 2560
           }
