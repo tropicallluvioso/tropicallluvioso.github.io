@@ -188,13 +188,7 @@
           }
         },
         {
-          "image": {
-            "provider": "uploadcare",
-            "type": "image",
-            "id": "58b72cb0-ad9b-484c-b654-94dc59ae0686",
-            "height": 1476,
-            "width": 2880
-          }
+          "image": {}
         }
       ],
       "text": "Lorem ipsum chamancatualitou"
