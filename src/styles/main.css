@@ -358,7 +358,7 @@ a {
 
 .pb-data {
   position:absolute;
-  background:black;
+  background:rgba(0,0,0,0.76);
   bottom:10px;
   left:10px;
   padding:30px;
