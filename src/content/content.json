@@ -197,46 +197,6 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "488c54ed-3a12-454f-b578-c9fdbb689ac7",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "c59a2f6b-8568-47fa-a257-4f0900898c05",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "03d936db-37aa-4415-8537-713b6b0f4e66",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ],
-        "ficha": "<p>Dirección: Fede Blanco</p><p>Producción: Daisy Arroyo &amp; Michael Castillo</p><p>Cámara, Sonido y Edición: Fede Blanco</p><p>Música: Niño Koi &amp; Amarillo, Cian y Magenta</p><p></p><p>2019, Tropical Lluvioso &amp; Universidad de Costa Rica</p>",
-        "sinopsis": "<p>Alguna vez el pueblo más próspero del Pacífico Sur centroamericano, Ciudad Cortés es un retrato en sepia del abandono de nuestras costas y de la resiliencia del ser humano.</p>",
-        "tituloProyecto": "El Pozo (2019)",
-        "id": "pozo",
-        "links": [
-          {
-            "link": "https://vimeo.com/804433406/d6a048d20a"
-          }
-        ]
-      },
-      {
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
               "id": "8d1214a5-a392-4d48-b3f7-239f0e9ef7a6",
               "height": 1600,
               "width": 2560
@@ -266,10 +226,6 @@
         "id": "nara"
       },
       {
-        "id": "mulheres",
-        "tituloProyecto": "Mulheres Árvore (2022)",
-        "sinopsis": "Mulheres Árvore (2022)",
-        "ficha": "Mulheres Árvore (2022)",
         "galeria": [
           {
             "image": {
@@ -289,9 +245,17 @@
               "width": 2560
             }
           }
-        ]
+        ],
+        "ficha": "Mulheres Árvore (2022)",
+        "sinopsis": "Mulheres Árvore (2022)",
+        "tituloProyecto": "Mulheres Árvore (2022)",
+        "id": "mulheres"
       },
       {
+        "id": "salonEspejos",
+        "tituloProyecto": "El Salón de los Espejos (development)",
+        "sinopsis": "El Salón de los Espejos (development)",
+        "ficha": "El Salón de los Espejos (development)",
         "galeria": [
           {
             "image": {
@@ -302,11 +266,7 @@
               "width": 2560
             }
           }
-        ],
-        "ficha": "El Salón de los Espejos (development)",
-        "sinopsis": "El Salón de los Espejos (development)",
-        "tituloProyecto": "El Salón de los Espejos (development)",
-        "id": "salonEspejos"
+        ]
       },
       {
         "galeria": [
@@ -320,16 +280,56 @@
             }
           }
         ],
+        "ficha": "I, ii y IiI (2018-2023)",
+        "sinopsis": "I, ii y IiI (2018-2023)",
+        "tituloProyecto": "I, ii y IiI (2018-2023)",
+        "id": "123",
         "links": [
           {
             "link": "https://instagram.com"
           }
         ],
-        "trailer": "https://youtube.com",
-        "ficha": "I, ii y IiI (2018-2023)",
-        "sinopsis": "I, ii y IiI (2018-2023)",
-        "tituloProyecto": "I, ii y IiI (2018-2023)",
-        "id": "123"
+        "trailer": "https://youtube.com"
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "488c54ed-3a12-454f-b578-c9fdbb689ac7",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "c59a2f6b-8568-47fa-a257-4f0900898c05",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "03d936db-37aa-4415-8537-713b6b0f4e66",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "links": [
+          {
+            "link": "https://vimeo.com/804433406/d6a048d20a"
+          }
+        ],
+        "ficha": "<p>Dirección: Fede Blanco</p><p>Producción: Daisy Arroyo &amp; Michael Castillo</p><p>Cámara, Sonido y Edición: Fede Blanco</p><p>Música: Niño Koi &amp; Amarillo, Cian y Magenta</p><p></p><p>2019, Tropical Lluvioso &amp; Universidad de Costa Rica</p>",
+        "sinopsis": "<p>Alguna vez el pueblo más próspero del Pacífico Sur centroamericano, Ciudad Cortés es un retrato en sepia del abandono de nuestras costas y de la resiliencia del ser humano.</p>",
+        "tituloProyecto": "El Pozo (2019)",
+        "id": "pozo"
       }
     ],
     "contact": {
@@ -647,46 +647,6 @@
     },
     "production": [
       {
-        "tituloProyecto": "El Pozo (2019)",
-        "sinopsis": "<p>Once the most prosperous town in the South Pacific of Central America, Ciudad Cortés is a sepia portrait of our abandonment of coastlines, and the resilience of the human being.</p>",
-        "ficha": "<p>Directed by: Fede Blanco</p><p>Produced by: Daisy Arroyo &amp; Michael Castillo</p><p>Camera, sound and editing: Fede Blanco</p><p>Music: Niño Koi &amp; Amarillo, Cian y Magenta</p><p></p><p>2019, Tropical Lluvioso &amp; Universidad de Costa Rica</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "488c54ed-3a12-454f-b578-c9fdbb689ac7",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "c59a2f6b-8568-47fa-a257-4f0900898c05",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "03d936db-37aa-4415-8537-713b6b0f4e66",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ],
-        "id": "pozo",
-        "links": [
-          {
-            "link": "https://vimeo.com/804433406/d6a048d20a"
-          }
-        ]
-      },
-      {
         "tituloProyecto": "Sotavento (2021)",
         "sinopsis": "Sotavento (2021)",
         "ficha": "Sotavento (2021)",
@@ -721,7 +681,6 @@
         "id": "nara"
       },
       {
-        "id": "mulheres",
         "tituloProyecto": "Mulheres Árvore (2022)",
         "sinopsis": "Mulheres Árvore (2022)",
         "ficha": "Mulheres Árvore (2022)",
@@ -744,9 +703,11 @@
               "width": 2560
             }
           }
-        ]
+        ],
+        "id": "mulheres"
       },
       {
+        "id": "salonEspejos",
         "tituloProyecto": "El Salón de los Espejos (development)",
         "sinopsis": "El Salón de los Espejos (development)",
         "ficha": "El Salón de los Espejos (development)",
@@ -760,8 +721,7 @@
               "width": 2560
             }
           }
-        ],
-        "id": "salonEspejos"
+        ]
       },
       {
         "tituloProyecto": "I, ii y IiI (2018-2023)",
@@ -778,13 +738,53 @@
             }
           }
         ],
+        "id": "123",
         "links": [
           {
             "link": "https://instagram.com"
           }
         ],
-        "trailer": "https://youtube.com",
-        "id": "123"
+        "trailer": "https://youtube.com"
+      },
+      {
+        "tituloProyecto": "El Pozo (2019)",
+        "sinopsis": "<p>Once the most prosperous town in the South Pacific of Central America, Ciudad Cortés is a sepia portrait of our abandonment of coastlines, and the resilience of the human being.</p>",
+        "ficha": "<p>Directed by: Fede Blanco</p><p>Produced by: Daisy Arroyo &amp; Michael Castillo</p><p>Camera, sound and editing: Fede Blanco</p><p>Music: Niño Koi &amp; Amarillo, Cian y Magenta</p><p></p><p>2019, Tropical Lluvioso &amp; Universidad de Costa Rica</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "488c54ed-3a12-454f-b578-c9fdbb689ac7",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "c59a2f6b-8568-47fa-a257-4f0900898c05",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "03d936db-37aa-4415-8537-713b6b0f4e66",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "links": [
+          {
+            "link": "https://vimeo.com/804433406/d6a048d20a"
+          }
+        ],
+        "id": "pozo"
       }
     ],
     "contact": {
