@@ -203,10 +203,15 @@
             }
           }
         ],
-        "ficha": "El Pozo (2019)",
-        "sinopsis": "<p>El Pozo (2019)</p>",
+        "ficha": "<p>Dirección: Fede Blanco</p><p>Producción: Daisy Arroyo &amp; Michael Castillo</p><p>Cámara, Sonido y Edición: Fede Blanco</p><p>Música: Niño Koi &amp; Amarillo, Cian y Magenta</p><p></p><p>2019, Tropical Lluvioso &amp; Universidad de Costa Rica</p>",
+        "sinopsis": "<p>Alguna vez el pueblo más próspero del Pacífico Sur centroamericano, Ciudad Cortés es un retrato en sepia del abandono de nuestras costas y de la resiliencia del ser humano.</p>",
         "tituloProyecto": "El Pozo (2019)",
-        "id": "pozo"
+        "id": "pozo",
+        "links": [
+          {
+            "link": "https://vimeo.com/804433406/d6a048d20a"
+          }
+        ]
       },
       {
         "galeria": [
@@ -625,8 +630,8 @@
     "production": [
       {
         "tituloProyecto": "El Pozo (2019)",
-        "sinopsis": "<p>El Pozo (2019)</p>",
-        "ficha": "El Pozo (2019)",
+        "sinopsis": "<p>Once the most prosperous town in the South Pacific of Central America, Ciudad Cortés is a sepia portrait of our abandonment of coastlines, and the resilience of the human being.</p>",
+        "ficha": "<p>Directed by: Fede Blanco</p><p>Produced by: Daisy Arroyo &amp; Michael Castillo</p><p>Camera, sound and editing: Fede Blanco</p><p>Music: Niño Koi &amp; Amarillo, Cian y Magenta</p><p></p><p>2019, Tropical Lluvioso &amp; Universidad de Costa Rica</p>",
         "galeria": [
           {
             "image": {
@@ -638,7 +643,12 @@
             }
           }
         ],
-        "id": "pozo"
+        "id": "pozo",
+        "links": [
+          {
+            "link": "https://vimeo.com/804433406/d6a048d20a"
+          }
+        ]
       },
       {
         "tituloProyecto": "Sotavento (2021)",
