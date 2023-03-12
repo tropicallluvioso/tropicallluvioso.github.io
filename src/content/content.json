@@ -197,7 +197,7 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "1d3ca5dc-1bef-4f27-987d-4c870148886a",
+              "id": "9ed89e8f-75f9-4832-be19-f85325fc009e",
               "height": 1080,
               "width": 1920
             }
@@ -206,7 +206,7 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "476cf964-4bf3-41f5-bfad-1041fd250a66",
+              "id": "c66b9d0d-e8ed-4510-a3c1-55537a676f29",
               "height": 1080,
               "width": 1920
             }
@@ -215,63 +215,16 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "11218ad7-66f1-47f2-b5d0-1388f3f11284",
+              "id": "9ed5df20-78fe-4f6a-b515-488f58c9d8f3",
               "height": 1080,
               "width": 1920
             }
           }
         ],
-        "ficha": "<p>5min, B/N, Digital, 16:9 </p><p>Dir: Fede Blanco <br>Guion: Fede Blanco <br>Prod: Wara </p><p>Tropical Lluvioso <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2020</p>",
-        "sinopsis": "<p>Un año de una nueva vida a la distancia, reconstruido en sueños, ruidos y luces que se sobreimponen en alucinantes delirios, o simples sobreimposiciones de lo pensado, lo visto y lo escuchado. La distancia y el a-isla-miento son un viaje claustrofóbico hacia el interior pero también la liberadora puerta a un cosmos de posibilidades.</p>",
-        "tituloProyecto": "Huequillos (2020)",
-        "id": "huequillos",
-        "links": [
-          {
-            "link": "https://vimeo.com/452900649"
-          }
-        ],
-        "trailer": "https://vimeo.com/452900649"
-      },
-      {
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
-              "height": 1152,
-              "width": 2048
-            }
-          }
-        ],
-        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
-        "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
-        "tituloProyecto": "Nara (2021)",
-        "id": "nara",
-        "links": [
-          {
-            "link": "https://m.imdb.com/title/tt27042356/"
-          }
-        ],
-        "trailer": "https://vimeo.com/651633840"
+        "ficha": "<p>27min, Color, Digital, 16:9 </p><p>Dir: Roberto Jaén Chacón<br>Guion: Roberto Jaén Chacón &amp; Viviana Valverde<br>Prod: Fede Blanco &amp; Carolina Muñoz </p><p>Disponible en la plataforma UCRQ: <a href=\"https://www.ucrq.tv/videos/autonomiaucr\" rel=\"noopener noreferrer nofollow\">https://www.ucrq.tv/videos/autonomiaucr</a> </p><p>Universidad de Costa Rica <br>Tropical Lluvioso </p><p>2023</p>",
+        "sinopsis": "<p>Autonomía universitaria: su historia, las amenazas en su contra, y el futuro de la Universidad.</p>",
+        "tituloProyecto": "¿De qué hablamos cuando hablamos de autonomía?",
+        "id": "autonomia"
       },
       {
         "galeria": [
@@ -324,41 +277,6 @@
         "trailer": "https://vimeo.com/tropicallluvioso/mulheresarvore"
       },
       {
-        "id": "autonomia",
-        "tituloProyecto": "¿De qué hablamos cuando hablamos de autonomía?",
-        "sinopsis": "<p>Autonomía universitaria: su historia, las amenazas en su contra, y el futuro de la Universidad.</p>",
-        "ficha": "<p>27min, Color, Digital, 16:9 </p><p>Dir: Roberto Jaén Chacón<br>Guion: Roberto Jaén Chacón &amp; Viviana Valverde<br>Prod: Fede Blanco &amp; Carolina Muñoz </p><p>Disponible en la plataforma UCRQ: <a href=\"https://www.ucrq.tv/videos/autonomiaucr\" rel=\"noopener noreferrer nofollow\">https://www.ucrq.tv/videos/autonomiaucr</a> </p><p>Universidad de Costa Rica <br>Tropical Lluvioso </p><p>2023</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "9ed89e8f-75f9-4832-be19-f85325fc009e",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "c66b9d0d-e8ed-4510-a3c1-55537a676f29",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "9ed5df20-78fe-4f6a-b515-488f58c9d8f3",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ]
-      },
-      {
         "galeria": [
           {
             "image": {
@@ -398,6 +316,88 @@
           }
         ],
         "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
+        "id": "nara",
+        "tituloProyecto": "Nara (2021)",
+        "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
+              "height": 1152,
+              "width": 2048
+            }
+          }
+        ],
+        "links": [
+          {
+            "link": "https://m.imdb.com/title/tt27042356/"
+          }
+        ],
+        "trailer": "https://vimeo.com/651633840"
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1d3ca5dc-1bef-4f27-987d-4c870148886a",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "476cf964-4bf3-41f5-bfad-1041fd250a66",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "11218ad7-66f1-47f2-b5d0-1388f3f11284",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "ficha": "<p>5min, B/N, Digital, 16:9 </p><p>Dir: Fede Blanco <br>Guion: Fede Blanco <br>Prod: Wara </p><p>Tropical Lluvioso <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2020</p>",
+        "sinopsis": "<p>Un año de una nueva vida a la distancia, reconstruido en sueños, ruidos y luces que se sobreimponen en alucinantes delirios, o simples sobreimposiciones de lo pensado, lo visto y lo escuchado. La distancia y el a-isla-miento son un viaje claustrofóbico hacia el interior pero también la liberadora puerta a un cosmos de posibilidades.</p>",
+        "tituloProyecto": "Huequillos (2020)",
+        "id": "huequillos",
+        "links": [
+          {
+            "link": "https://vimeo.com/452900649"
+          }
+        ],
+        "trailer": "https://vimeo.com/452900649"
       },
       {
         "galeria": [
@@ -775,15 +775,15 @@
     },
     "production": [
       {
-        "tituloProyecto": "Huequillos (2020)",
-        "sinopsis": "<p>Un año de una nueva vida a la distancia, reconstruido en sueños, ruidos y luces que se sobreimponen en alucinantes delirios, o simples sobreimposiciones de lo pensado, lo visto y lo escuchado. La distancia y el a-isla-miento son un viaje claustrofóbico hacia el interior pero también la liberadora puerta a un cosmos de posibilidades.</p>",
-        "ficha": "<p>5min, B/N, Digital, 16:9 </p><p>Dir: Fede Blanco <br>Guion: Fede Blanco <br>Prod: Wara </p><p>Tropical Lluvioso <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2020</p>",
+        "tituloProyecto": "¿De qué hablamos cuando hablamos de autonomía?",
+        "sinopsis": "<p>Autonomía universitaria: su historia, las amenazas en su contra, y el futuro de la Universidad.</p>",
+        "ficha": "<p>27min, Color, Digital, 16:9 </p><p>Dir: Roberto Jaén Chacón<br>Guion: Roberto Jaén Chacón &amp; Viviana Valverde<br>Prod: Fede Blanco &amp; Carolina Muñoz </p><p>Disponible en la plataforma UCRQ: <a href=\"https://www.ucrq.tv/videos/autonomiaucr\" rel=\"noopener noreferrer nofollow\">https://www.ucrq.tv/videos/autonomiaucr</a> </p><p>Universidad de Costa Rica <br>Tropical Lluvioso </p><p>2023</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "1d3ca5dc-1bef-4f27-987d-4c870148886a",
+              "id": "9ed89e8f-75f9-4832-be19-f85325fc009e",
               "height": 1080,
               "width": 1920
             }
@@ -792,7 +792,7 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "476cf964-4bf3-41f5-bfad-1041fd250a66",
+              "id": "c66b9d0d-e8ed-4510-a3c1-55537a676f29",
               "height": 1080,
               "width": 1920
             }
@@ -801,60 +801,13 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "11218ad7-66f1-47f2-b5d0-1388f3f11284",
+              "id": "9ed5df20-78fe-4f6a-b515-488f58c9d8f3",
               "height": 1080,
               "width": 1920
             }
           }
         ],
-        "id": "huequillos",
-        "links": [
-          {
-            "link": "https://vimeo.com/452900649"
-          }
-        ],
-        "trailer": "https://vimeo.com/452900649"
-      },
-      {
-        "tituloProyecto": "Nara (2021)",
-        "sinopsis": "<p>Nara lives in isolation in an old house in the countryside, unable to go out during daylight. After her mother's mysterious death and her brother's sudden departure, Nara is left alone, haunted by her dreams.</p>",
-        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
-              "height": 1152,
-              "width": 2048
-            }
-          }
-        ],
-        "id": "nara",
-        "links": [
-          {
-            "link": "https://m.imdb.com/title/tt27042356/"
-          }
-        ],
-        "trailer": "https://vimeo.com/651633840"
+        "id": "autonomia"
       },
       {
         "tituloProyecto": "Mulheres Árvore (2022)",
@@ -907,41 +860,6 @@
         "trailer": "https://vimeo.com/tropicallluvioso/mulheresarvore"
       },
       {
-        "id": "autonomia",
-        "tituloProyecto": "¿De qué hablamos cuando hablamos de autonomía?",
-        "sinopsis": "<p>Autonomía universitaria: su historia, las amenazas en su contra, y el futuro de la Universidad.</p>",
-        "ficha": "<p>27min, Color, Digital, 16:9 </p><p>Dir: Roberto Jaén Chacón<br>Guion: Roberto Jaén Chacón &amp; Viviana Valverde<br>Prod: Fede Blanco &amp; Carolina Muñoz </p><p>Disponible en la plataforma UCRQ: <a href=\"https://www.ucrq.tv/videos/autonomiaucr\" rel=\"noopener noreferrer nofollow\">https://www.ucrq.tv/videos/autonomiaucr</a> </p><p>Universidad de Costa Rica <br>Tropical Lluvioso </p><p>2023</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "9ed89e8f-75f9-4832-be19-f85325fc009e",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "c66b9d0d-e8ed-4510-a3c1-55537a676f29",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "9ed5df20-78fe-4f6a-b515-488f58c9d8f3",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ]
-      },
-      {
         "tituloProyecto": "Sotavento (2022)",
         "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
         "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
@@ -981,6 +899,88 @@
           }
         ],
         "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
+        "id": "nara",
+        "tituloProyecto": "Nara (2021)",
+        "sinopsis": "<p>Nara lives in isolation in an old house in the countryside, unable to go out during daylight. After her mother's mysterious death and her brother's sudden departure, Nara is left alone, haunted by her dreams.</p>",
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
+              "height": 1152,
+              "width": 2048
+            }
+          }
+        ],
+        "links": [
+          {
+            "link": "https://m.imdb.com/title/tt27042356/"
+          }
+        ],
+        "trailer": "https://vimeo.com/651633840"
+      },
+      {
+        "tituloProyecto": "Huequillos (2020)",
+        "sinopsis": "<p>Un año de una nueva vida a la distancia, reconstruido en sueños, ruidos y luces que se sobreimponen en alucinantes delirios, o simples sobreimposiciones de lo pensado, lo visto y lo escuchado. La distancia y el a-isla-miento son un viaje claustrofóbico hacia el interior pero también la liberadora puerta a un cosmos de posibilidades.</p>",
+        "ficha": "<p>5min, B/N, Digital, 16:9 </p><p>Dir: Fede Blanco <br>Guion: Fede Blanco <br>Prod: Wara </p><p>Tropical Lluvioso <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2020</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1d3ca5dc-1bef-4f27-987d-4c870148886a",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "476cf964-4bf3-41f5-bfad-1041fd250a66",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "11218ad7-66f1-47f2-b5d0-1388f3f11284",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "id": "huequillos",
+        "links": [
+          {
+            "link": "https://vimeo.com/452900649"
+          }
+        ],
+        "trailer": "https://vimeo.com/452900649"
       },
       {
         "tituloProyecto": "El Pozo (2019)",
