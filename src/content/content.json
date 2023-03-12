@@ -598,6 +598,41 @@
         ]
       },
       {
+        "id": "sut2",
+        "tituloProyecto": "Al Final No Hay Nada (2018)",
+        "sinopsis": "<p>El equipo de producción de un programa de sátira política intenta rescatar el programa tras la renuncia de su presentador, quien no puede aguantar más las condiciones de la sociedad que hacen necesario el programa.</p>",
+        "ficha": "<p>70min, Color, Digital, 16:9</p><p>Dir: Fede Blanco, Eddson Gómez &amp; Fernando Obando<br>Guion: Fede Blanco, Natalia Diaz, Estefany Jiménez, Eddson Gómez &amp; Fernando Obando<br>Prod: Fede Blanco, Daniel Aguilar, Fernando Obando &amp; Carolina Rodríguez</p><p>Tropical Lluvioso - entonces CSHPSH - </p><p>2018</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "b33fdf0e-40f5-4ad7-ab57-b5e4134d2141",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "trailer": "https://vimeo.com/795352403"
+      },
+      {
+        "id": "sut1",
+        "tituloProyecto": "Suave un Toque (2017-2018)",
+        "sinopsis": "<p>Aquí todo es ridículo y absurdo, pero muy pocas cosas son inventadas: noticiero de sátira política costarricense. </p>",
+        "ficha": "<p>2 temporadas, 32 episodios (26min)</p><p>Producción Ejecutiva: Fede Blanco <br>Direccion: Fernando Obando, Fede Blanco <br>Guion: Fede Blanco, Natalia Diaz, Estefany Jiménez, Eddson Gómez, Fernando Obando &amp; Eduardo Mora </p><p>Premio Nuevas Miradas en la TV 2018 </p><p>Tropical Lluvioso <br>Canal UCR <br>Federación de Estudiantes de la Universidad de Costa Rica </p><p>2017-2018</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "abde1e95-d512-406c-9b1b-0de1ce2cd96f",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ]
+      },
+      {
         "id": "guardianas",
         "tituloProyecto": "Guardianas (desarrollo)",
         "sinopsis": "<p>En defensa de sus territorios y conocimiento ancestral, tres lideresas tejen comunidades que desafían la falsa frontera que hemos levantado entre lo humano y lo natural.</p>",
@@ -1270,6 +1305,41 @@
               "provider": "uploadcare",
               "type": "image",
               "id": "d84f9d7f-0729-44b0-908a-5a580e629fdf",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ]
+      },
+      {
+        "id": "sut2",
+        "tituloProyecto": "Al Final No Hay Nada (2018)",
+        "sinopsis": "<p>El equipo de producción de un programa de sátira política intenta rescatar el programa tras la renuncia de su presentador, quien no puede aguantar más las condiciones de la sociedad que hacen necesario el programa.</p>",
+        "ficha": "<p>70min, Color, Digital, 16:9</p><p>Dir: Fede Blanco, Eddson Gómez &amp; Fernando Obando<br>Guion: Fede Blanco, Natalia Diaz, Estefany Jiménez, Eddson Gómez &amp; Fernando Obando<br>Prod: Fede Blanco, Daniel Aguilar, Fernando Obando &amp; Carolina Rodríguez</p><p>Tropical Lluvioso - entonces CSHPSH - </p><p>2018</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "b33fdf0e-40f5-4ad7-ab57-b5e4134d2141",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ],
+        "trailer": "https://vimeo.com/795352403"
+      },
+      {
+        "id": "sut1",
+        "tituloProyecto": "Suave un Toque (2017-2018)",
+        "sinopsis": "<p>Aquí todo es ridículo y absurdo, pero muy pocas cosas son inventadas: noticiero de sátira política costarricense. </p>",
+        "ficha": "<p>2 temporadas, 32 episodios (26min)</p><p>Producción Ejecutiva: Fede Blanco <br>Direccion: Fernando Obando, Fede Blanco <br>Guion: Fede Blanco, Natalia Diaz, Estefany Jiménez, Eddson Gómez, Fernando Obando &amp; Eduardo Mora </p><p>Premio Nuevas Miradas en la TV 2018 </p><p>Tropical Lluvioso <br>Canal UCR <br>Federación de Estudiantes de la Universidad de Costa Rica </p><p>2017-2018</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "abde1e95-d512-406c-9b1b-0de1ce2cd96f",
               "height": 1080,
               "width": 1920
             }
