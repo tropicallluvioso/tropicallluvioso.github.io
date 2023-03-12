@@ -197,9 +197,9 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
-              "height": 1600,
-              "width": 2560
+              "id": "1cee1743-9612-4e3e-8885-7081bc46b108",
+              "height": 1080,
+              "width": 1920
             }
           }
         ],
@@ -746,9 +746,9 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "a48b32bf-68d0-4c16-afef-c73266a0df5a",
-              "height": 1600,
-              "width": 2560
+              "id": "1cee1743-9612-4e3e-8885-7081bc46b108",
+              "height": 1080,
+              "width": 1920
             }
           }
         ],
