@@ -447,10 +447,27 @@
     },
     "screenwriting": [
       {
+        "tituloProyecto": "Sotavento (2022)",
+        "id": "sotavento",
+        "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
+              "height": 1100,
+              "width": 1964
+            }
+          }
+        ],
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
         "tituloProyecto": "Soberane (2022)",
         "id": "soberane",
         "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home.",
-        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "galeria": [
           {
             "image": {
@@ -498,6 +515,7 @@
             }
           }
         ],
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "trailer": "https://vimeo.com/725455404"
       },
       {
@@ -1030,10 +1048,27 @@
     },
     "screenwriting": [
       {
+        "id": "sotavento",
+        "tituloProyecto": "Sotavento (2022)",
+        "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
+              "height": 1100,
+              "width": 1964
+            }
+          }
+        ],
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
         "id": "soberane",
         "tituloProyecto": "Soberane (2022)",
         "sinopsis": "<p>Hakan no quiere regresar a Brasil, pero no sabe como decirle a Lissy que no puede ofrecerle más la vida que han comenzado a soñar fuera de Cuba. Hakan se enfrenta a su indecisión cuando Lissy descubre que le ha ocultado una posibilidad para salir de la isla. Sin más opciones para quedarse, Hakan debe asumir que no es más la misma persona para poder regresar a casa.</p>",
-        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "galeria": [
           {
             "image": {
@@ -1081,6 +1116,7 @@
             }
           }
         ],
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "trailer": "https://vimeo.com/725455404"
       },
       {
