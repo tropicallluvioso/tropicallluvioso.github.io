@@ -485,37 +485,37 @@
       {
         "tituloProyecto": "Anima (2022)",
         "id": "anima",
-        "sinopsis": "What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;",
+        "sinopsis": "<p>El día transcurre en un centro de cautiverio, mientras se devela el misterioso mundo de los animales refugiados. Los ciclos de muerte y nacimiento enmarcan sus vidas, que transcurren entre rituales cotidianos de cuidado y control. ¿Qué expresan los animales cuando nos miran directo a los ojos?</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
-              "height": 600,
-              "width": 1500
+              "id": "2157b9eb-ea5c-4b4f-8efb-60de5858771e",
+              "height": 1081,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
-              "height": 600,
-              "width": 1500
+              "id": "7cc3b35e-5d80-4f6f-bf2b-64c252ea3777",
+              "height": 1080,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
-              "height": 600,
-              "width": 1500
+              "id": "687b4470-4699-40e1-aa1f-99d9f08a9d12",
+              "height": 1081,
+              "width": 1920
             }
           }
         ],
-        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo Screenplay by Fede Blanco &amp; Manuel Mateo"
+        "ficha": "<p>20min, Color, Digital, 16:9 </p><p>Dir: Manuel Mateo Gómez <br>Guion: Fede Blanco, Manuel Mateo Gómez <br>Prod: Yenisleidy Vázquez Capote </p><p>Premio Ástor Piazzola al Mejor Cortometraje Latinoamericano - 37 Festival Internacional de Cine de Mar del Plata </p><p>Escuela Internacional de Cine y TV (EICTV) </p><p>2022</p>"
       }
     ],
     "public_broadcasting": [
@@ -1050,37 +1050,37 @@
       {
         "id": "anima",
         "tituloProyecto": "Anima (2022)",
-        "sinopsis": " What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;Directed by Manuel MateoScreenplay by Fede Blanco &amp; Manuel Mateo",
+        "sinopsis": "<p>What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
-              "height": 600,
-              "width": 1500
+              "id": "2157b9eb-ea5c-4b4f-8efb-60de5858771e",
+              "height": 1081,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
-              "height": 600,
-              "width": 1500
+              "id": "7cc3b35e-5d80-4f6f-bf2b-64c252ea3777",
+              "height": 1080,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
-              "height": 600,
-              "width": 1500
+              "id": "687b4470-4699-40e1-aa1f-99d9f08a9d12",
+              "height": 1081,
+              "width": 1920
             }
           }
         ],
-        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo. Screenplay by Fede Blanco &amp; Manuel Mateo"
+        "ficha": "<p>20min, Color, Digital, 16:9 </p><p>Dir: Manuel Mateo Gómez <br>Guion: Fede Blanco, Manuel Mateo Gómez <br>Prod: Yenisleidy Vázquez Capote </p><p>Premio Ástor Piazzola al Mejor Cortometraje Latinoamericano - 37 Festival Internacional de Cine de Mar del Plata </p><p>Escuela Internacional de Cine y TV (EICTV) </p><p>2022</p>"
       }
     ],
     "public-broadcasting": [
