@@ -457,15 +457,6 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "89511340-75a5-4b8c-bbda-acde4c9ad33c",
-              "height": 1080,
-              "width": 1920
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
               "id": "25d0b9ec-4f3b-4694-98bf-1e9756b614f9",
               "height": 1187,
               "width": 2111
@@ -1090,15 +1081,6 @@
         "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "trailer": "https://vimeo.com/725455404",
         "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "89511340-75a5-4b8c-bbda-acde4c9ad33c",
-              "height": 1080,
-              "width": 1920
-            }
-          },
           {
             "image": {
               "provider": "uploadcare",
