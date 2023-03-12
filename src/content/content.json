@@ -447,16 +447,11 @@
     },
     "screenwriting": [
       {
-        "tituloProyecto": "La Obra (2022)",
-        "id": "obra",
-        "sinopsis": "<p>En un ruidoso barrio de edificios soviéticos, Osmany busca diseñar un cambio en su entorno. Sus dibujos reproducen las rígidas estructuras del prefabricado, hasta que se sumerge en las musicales ruinas de un templo de la creación para configurar la forma de su nueva obra.</p>",
-        "ficha": "<p>15min, Color, Digital, 16:9 </p><p>Dir: José Ángel Pérez Segura <br>Guion: Fede Blanco, José Ángel Pérez Segura <br>Prod: Hanzer González Garriga </p><p>Escuela Internacional de Cine y TV (EICTV)</p><p>&nbsp;2022</p>",
-        "trailer": "https://vimeo.com/720400656"
-      },
-      {
         "tituloProyecto": "Soberane (2022)",
         "id": "soberane",
         "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home.",
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
+        "trailer": "https://vimeo.com/725455404",
         "galeria": [
           {
             "image": {
@@ -503,9 +498,7 @@
               "width": 1920
             }
           }
-        ],
-        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
-        "trailer": "https://vimeo.com/725455404"
+        ]
       },
       {
         "tituloProyecto": "Anima (2022)",
@@ -543,11 +536,9 @@
         "ficha": "<p>20min, Color, Digital, 16:9 </p><p>Dir: Manuel Mateo Gómez <br>Guion: Fede Blanco, Manuel Mateo Gómez <br>Prod: Yenisleidy Vázquez Capote </p><p>Premio Ástor Piazzola al Mejor Cortometraje Latinoamericano - 37 Festival Internacional de Cine de Mar del Plata </p><p>Escuela Internacional de Cine y TV (EICTV) </p><p>2022</p>"
       },
       {
-        "id": "sotavento",
         "tituloProyecto": "Sotavento (2022)",
+        "id": "sotavento",
         "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
-        "trailer": "https://youtu.be/QW-rIjDGTUQ",
         "galeria": [
           {
             "image": {
@@ -556,6 +547,44 @@
               "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
               "height": 1100,
               "width": 1964
+            }
+          }
+        ],
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
+        "id": "obra",
+        "tituloProyecto": "La Obra (2022)",
+        "sinopsis": "<p>En un ruidoso barrio de edificios soviéticos, Osmany busca diseñar un cambio en su entorno. Sus dibujos reproducen las rígidas estructuras del prefabricado, hasta que se sumerge en las musicales ruinas de un templo de la creación para configurar la forma de su nueva obra.</p>",
+        "ficha": "<p>15min, Color, Digital, 16:9 </p><p>Dir: José Ángel Pérez Segura <br>Guion: Fede Blanco, José Ángel Pérez Segura <br>Prod: Hanzer González Garriga </p><p>Escuela Internacional de Cine y TV (EICTV)</p><p>&nbsp;2022</p>",
+        "trailer": "https://vimeo.com/720400656",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "163ae99b-5178-4cf5-b1fa-7d9f525c87de",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "c7b2951a-8e2d-473b-bcd4-567b60a47ebd",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "7223af71-9a0f-411e-a4f2-654d0ece98eb",
+              "height": 1080,
+              "width": 1920
             }
           }
         ]
@@ -1055,16 +1084,11 @@
     },
     "screenwriting": [
       {
-        "id": "obra",
-        "tituloProyecto": "La Obra (2022)",
-        "sinopsis": "<p>In a noisy neighborhood of soviet architecture, Osmany tries to design a change in his environment. His drawings reproduce the rigid prefabricated structures, until he delves into the musical ruins of a temple of creation in which he finds the shape of his new work.</p>",
-        "ficha": "<p>15min, Color, Digital, 16:9 </p><p>Dir: José Ángel Pérez Segura <br>Guion: Fede Blanco, José Ángel Pérez Segura <br>Prod: Hanzer González Garriga </p><p>Escuela Internacional de Cine y TV (EICTV)</p><p>&nbsp;2022</p>",
-        "trailer": "https://vimeo.com/720400656"
-      },
-      {
         "id": "soberane",
         "tituloProyecto": "Soberane (2022)",
         "sinopsis": "<p>Hakan no quiere regresar a Brasil, pero no sabe como decirle a Lissy que no puede ofrecerle más la vida que han comenzado a soñar fuera de Cuba. Hakan se enfrenta a su indecisión cuando Lissy descubre que le ha ocultado una posibilidad para salir de la isla. Sin más opciones para quedarse, Hakan debe asumir que no es más la misma persona para poder regresar a casa.</p>",
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
+        "trailer": "https://vimeo.com/725455404",
         "galeria": [
           {
             "image": {
@@ -1111,9 +1135,7 @@
               "width": 1920
             }
           }
-        ],
-        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
-        "trailer": "https://vimeo.com/725455404"
+        ]
       },
       {
         "id": "anima",
@@ -1154,8 +1176,6 @@
         "id": "sotavento",
         "tituloProyecto": "Sotavento (2022)",
         "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
-        "trailer": "https://youtu.be/QW-rIjDGTUQ",
         "galeria": [
           {
             "image": {
@@ -1164,6 +1184,44 @@
               "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
               "height": 1100,
               "width": 1964
+            }
+          }
+        ],
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
+        "id": "obra",
+        "tituloProyecto": "La Obra (2022)",
+        "sinopsis": "<p>In a noisy neighborhood of soviet architecture, Osmany tries to design a change in his environment. His drawings reproduce the rigid prefabricated structures, until he delves into the musical ruins of a temple of creation in which he finds the shape of his new work.</p>",
+        "ficha": "<p>15min, Color, Digital, 16:9 </p><p>Dir: José Ángel Pérez Segura <br>Guion: Fede Blanco, José Ángel Pérez Segura <br>Prod: Hanzer González Garriga </p><p>Escuela Internacional de Cine y TV (EICTV)</p><p>&nbsp;2022</p>",
+        "trailer": "https://vimeo.com/720400656",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "163ae99b-5178-4cf5-b1fa-7d9f525c87de",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "c7b2951a-8e2d-473b-bcd4-567b60a47ebd",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "7223af71-9a0f-411e-a4f2-654d0ece98eb",
+              "height": 1080,
+              "width": 1920
             }
           }
         ]
