@@ -197,47 +197,6 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
-              "height": 1152,
-              "width": 2048
-            }
-          }
-        ],
-        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
-        "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
-        "tituloProyecto": "Nara (2021)",
-        "id": "nara",
-        "links": [
-          {
-            "link": "https://m.imdb.com/title/tt27042356/"
-          }
-        ],
-        "trailer": "https://vimeo.com/651633840"
-      },
-      {
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
               "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
               "height": 1600,
               "width": 2560
@@ -276,10 +235,6 @@
         "id": "salonEspejos"
       },
       {
-        "id": "123",
-        "tituloProyecto": "I, ii y IiI (2018-2023)",
-        "sinopsis": "I, ii y IiI (2018-2023)",
-        "ficha": "I, ii y IiI (2018-2023)",
         "galeria": [
           {
             "image": {
@@ -291,6 +246,10 @@
             }
           }
         ],
+        "ficha": "I, ii y IiI (2018-2023)",
+        "sinopsis": "I, ii y IiI (2018-2023)",
+        "tituloProyecto": "I, ii y IiI (2018-2023)",
+        "id": "123",
         "links": [
           {
             "link": "https://instagram.com"
@@ -299,6 +258,10 @@
         "trailer": "https://youtube.com"
       },
       {
+        "id": "sotavento",
+        "tituloProyecto": "Sotavento (2022)",
+        "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p><p></p>",
         "galeria": [
           {
             "image": {
@@ -319,10 +282,6 @@
             }
           }
         ],
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p><p></p>",
-        "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
-        "tituloProyecto": "Sotavento (2022)",
-        "id": "sotavento",
         "links": [
           {
             "link": "https://bafici.vivamoscultura.com/contenido/12959-sotavento"
@@ -338,6 +297,47 @@
           }
         ],
         "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
+              "height": 1152,
+              "width": 2048
+            }
+          }
+        ],
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
+        "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
+        "tituloProyecto": "Nara (2021)",
+        "id": "nara",
+        "links": [
+          {
+            "link": "https://m.imdb.com/title/tt27042356/"
+          }
+        ],
+        "trailer": "https://vimeo.com/651633840"
       },
       {
         "galeria": [
@@ -695,47 +695,6 @@
     },
     "production": [
       {
-        "tituloProyecto": "Nara (2021)",
-        "sinopsis": "<p>Nara lives in isolation in an old house in the countryside, unable to go out during daylight. After her mother's mysterious death and her brother's sudden departure, Nara is left alone, haunted by her dreams.</p>",
-        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
-              "height": 1152,
-              "width": 2048
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
-              "height": 1152,
-              "width": 2048
-            }
-          }
-        ],
-        "id": "nara",
-        "links": [
-          {
-            "link": "https://m.imdb.com/title/tt27042356/"
-          }
-        ],
-        "trailer": "https://vimeo.com/651633840"
-      },
-      {
         "tituloProyecto": "Mulheres Árvore (2022)",
         "sinopsis": "Mulheres Árvore (2022)",
         "ficha": "Mulheres Árvore (2022)",
@@ -779,7 +738,6 @@
         "id": "salonEspejos"
       },
       {
-        "id": "123",
         "tituloProyecto": "I, ii y IiI (2018-2023)",
         "sinopsis": "I, ii y IiI (2018-2023)",
         "ficha": "I, ii y IiI (2018-2023)",
@@ -794,6 +752,7 @@
             }
           }
         ],
+        "id": "123",
         "links": [
           {
             "link": "https://instagram.com"
@@ -802,6 +761,7 @@
         "trailer": "https://youtube.com"
       },
       {
+        "id": "sotavento",
         "tituloProyecto": "Sotavento (2022)",
         "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
         "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
@@ -825,7 +785,6 @@
             }
           }
         ],
-        "id": "sotavento",
         "links": [
           {
             "link": "https://bafici.vivamoscultura.com/contenido/12959-sotavento"
@@ -841,6 +800,47 @@
           }
         ],
         "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
+        "tituloProyecto": "Nara (2021)",
+        "sinopsis": "<p>Nara lives in isolation in an old house in the countryside, unable to go out during daylight. After her mother's mysterious death and her brother's sudden departure, Nara is left alone, haunted by her dreams.</p>",
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
+              "height": 1152,
+              "width": 2048
+            }
+          }
+        ],
+        "id": "nara",
+        "links": [
+          {
+            "link": "https://m.imdb.com/title/tt27042356/"
+          }
+        ],
+        "trailer": "https://vimeo.com/651633840"
       },
       {
         "tituloProyecto": "El Pozo (2019)",
