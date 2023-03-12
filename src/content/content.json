@@ -197,6 +197,15 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
+              "id": "8e6457d9-ca20-4e5c-8c71-847f12e41716",
+              "height": 1920,
+              "width": 1280
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
               "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
               "height": 1100,
               "width": 1964
@@ -666,6 +675,15 @@
         "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
         "ficha": "<p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp; </p>",
         "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "8e6457d9-ca20-4e5c-8c71-847f12e41716",
+              "height": 1920,
+              "width": 1280
+            }
+          },
           {
             "image": {
               "provider": "uploadcare",
