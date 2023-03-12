@@ -197,16 +197,40 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
-              "height": 1600,
-              "width": 2560
+              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
+              "height": 1152,
+              "width": 2048
             }
           }
         ],
-        "ficha": "Nara (2021)",
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
         "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
         "tituloProyecto": "Nara (2021)",
-        "id": "nara"
+        "id": "nara",
+        "links": [
+          {
+            "link": "https://m.imdb.com/title/tt27042356/"
+          }
+        ],
+        "trailer": "https://vimeo.com/651633840"
       },
       {
         "galeria": [
@@ -673,19 +697,43 @@
       {
         "tituloProyecto": "Nara (2021)",
         "sinopsis": "<p>Nara lives in isolation in an old house in the countryside, unable to go out during daylight. After her mother's mysterious death and her brother's sudden departure, Nara is left alone, haunted by her dreams.</p>",
-        "ficha": "Nara (2021)",
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "9db76b35-ed11-4629-b673-f575a155f5c4",
-              "height": 1600,
-              "width": 2560
+              "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "88c72ac0-472f-4364-a03a-dfa6e110ace9",
+              "height": 1152,
+              "width": 2048
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "e44b9f30-b351-41d7-b046-d5616dc23d4d",
+              "height": 1152,
+              "width": 2048
             }
           }
         ],
-        "id": "nara"
+        "id": "nara",
+        "links": [
+          {
+            "link": "https://m.imdb.com/title/tt27042356/"
+          }
+        ],
+        "trailer": "https://vimeo.com/651633840"
       },
       {
         "tituloProyecto": "Mulheres Árvore (2022)",
