@@ -432,36 +432,55 @@
         "tituloProyecto": "Soberane (2022)",
         "id": "soberane",
         "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home.",
-        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara.",
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "cd186a03-9ded-4054-bc02-2414732eddad",
-              "height": 1457,
-              "width": 2870
+              "id": "89511340-75a5-4b8c-bbda-acde4c9ad33c",
+              "height": 1080,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "135a6439-d4df-4ae3-9418-60984188232a",
-              "height": 1476,
-              "width": 2874
+              "id": "25d0b9ec-4f3b-4694-98bf-1e9756b614f9",
+              "height": 1187,
+              "width": 2111
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "65db88ab-287d-4719-be93-64ff9001873e",
-              "height": 1466,
-              "width": 2865
+              "id": "25f48981-ffcb-460e-9333-723c975d1eb8",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "3ced0212-c367-4c6d-a8bc-571748ded6b8",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "ffa618c5-a489-4186-8a61-0d8fc8baddcc",
+              "height": 1080,
+              "width": 1920
             }
           }
-        ]
+        ],
+        "trailer": "https://vimeo.com/725455404"
       },
       {
         "tituloProyecto": "Anima (2022)",
@@ -977,37 +996,56 @@
       {
         "id": "soberane",
         "tituloProyecto": "Soberane (2022)",
-        "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home. ",
-        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara.",
+        "sinopsis": "<p>Hakan no quiere regresar a Brasil, pero no sabe como decirle a Lissy que no puede ofrecerle más la vida que han comenzado a soñar fuera de Cuba. Hakan se enfrenta a su indecisión cuando Lissy descubre que le ha ocultado una posibilidad para salir de la isla. Sin más opciones para quedarse, Hakan debe asumir que no es más la misma persona para poder regresar a casa.</p>",
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "cd186a03-9ded-4054-bc02-2414732eddad",
-              "height": 1457,
-              "width": 2870
+              "id": "89511340-75a5-4b8c-bbda-acde4c9ad33c",
+              "height": 1080,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "135a6439-d4df-4ae3-9418-60984188232a",
-              "height": 1476,
-              "width": 2874
+              "id": "25d0b9ec-4f3b-4694-98bf-1e9756b614f9",
+              "height": 1187,
+              "width": 2111
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "65db88ab-287d-4719-be93-64ff9001873e",
-              "height": 1466,
-              "width": 2865
+              "id": "25f48981-ffcb-460e-9333-723c975d1eb8",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "3ced0212-c367-4c6d-a8bc-571748ded6b8",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "ffa618c5-a489-4186-8a61-0d8fc8baddcc",
+              "height": 1080,
+              "width": 1920
             }
           }
-        ]
+        ],
+        "trailer": "https://vimeo.com/725455404"
       },
       {
         "id": "anima",
