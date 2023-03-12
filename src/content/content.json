@@ -197,23 +197,6 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "1cee1743-9612-4e3e-8885-7081bc46b108",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ],
-        "ficha": "El Salón de los Espejos (development)",
-        "sinopsis": "El Salón de los Espejos (development)",
-        "tituloProyecto": "El Salón de los Espejos (development)",
-        "id": "salonEspejos"
-      },
-      {
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
               "id": "1d3ca5dc-1bef-4f27-987d-4c870148886a",
               "height": 1080,
               "width": 1920
@@ -255,51 +238,6 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "8e6457d9-ca20-4e5c-8c71-847f12e41716",
-              "height": 1920,
-              "width": 1280
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
-              "height": 1100,
-              "width": 1964
-            }
-          }
-        ],
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p><p></p>",
-        "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
-        "tituloProyecto": "Sotavento (2022)",
-        "id": "sotavento",
-        "links": [
-          {
-            "link": "https://bafici.vivamoscultura.com/contenido/12959-sotavento"
-          },
-          {
-            "link": "https://www.festivaldebiarritz.com/film/sotavento/"
-          },
-          {
-            "link": "http://moscowfilmfestival.ru/miff44/eng/films/?id=44197"
-          },
-          {
-            "link": "https://cinedelfindelmundo.com/peliculas/sotavento/"
-          }
-        ],
-        "trailer": "https://youtu.be/QW-rIjDGTUQ"
-      },
-      {
-        "id": "nara",
-        "tituloProyecto": "Nara (2021)",
-        "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
-        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
               "id": "a4b80e63-d63d-4ce5-befb-6e14f32be6cd",
               "height": 1152,
               "width": 2048
@@ -324,6 +262,10 @@
             }
           }
         ],
+        "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
+        "sinopsis": "<p>Nara vive en aislamiento en una vieja casa en el campo, incapaz de salir durante el día. Nara es acechada por sus sueños tras la misteriosa muerte de su madre y la partida repentina de su hermano.</p>",
+        "tituloProyecto": "Nara (2021)",
+        "id": "nara",
         "links": [
           {
             "link": "https://m.imdb.com/title/tt27042356/"
@@ -382,6 +324,64 @@
         "trailer": "https://vimeo.com/tropicallluvioso/mulheresarvore"
       },
       {
+        "id": "salonEspejos",
+        "tituloProyecto": "El Salón de los Espejos (development)",
+        "sinopsis": "El Salón de los Espejos (development)",
+        "ficha": "El Salón de los Espejos (development)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1cee1743-9612-4e3e-8885-7081bc46b108",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ]
+      },
+      {
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "8e6457d9-ca20-4e5c-8c71-847f12e41716",
+              "height": 1920,
+              "width": 1280
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
+              "height": 1100,
+              "width": 1964
+            }
+          }
+        ],
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p><p></p>",
+        "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
+        "tituloProyecto": "Sotavento (2022)",
+        "id": "sotavento",
+        "links": [
+          {
+            "link": "https://bafici.vivamoscultura.com/contenido/12959-sotavento"
+          },
+          {
+            "link": "https://www.festivaldebiarritz.com/film/sotavento/"
+          },
+          {
+            "link": "http://moscowfilmfestival.ru/miff44/eng/films/?id=44197"
+          },
+          {
+            "link": "https://cinedelfindelmundo.com/peliculas/sotavento/"
+          }
+        ],
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
         "galeria": [
           {
             "image": {
@@ -429,44 +429,10 @@
     },
     "screenwriting": [
       {
-        "tituloProyecto": "Anima (2022)",
-        "id": "anima",
-        "sinopsis": "What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;",
-        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo Screenplay by Fede Blanco &amp; Manuel Mateo",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
-              "height": 600,
-              "width": 1500
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
-              "height": 600,
-              "width": 1500
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
-              "height": 600,
-              "width": 1500
-            }
-          }
-        ]
-      },
-      {
         "tituloProyecto": "Soberane (2022)",
         "id": "soberane",
         "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home.",
+        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara.",
         "galeria": [
           {
             "image": {
@@ -495,8 +461,42 @@
               "width": 2865
             }
           }
+        ]
+      },
+      {
+        "tituloProyecto": "Anima (2022)",
+        "id": "anima",
+        "sinopsis": "What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
+              "height": 600,
+              "width": 1500
+            }
+          }
         ],
-        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara."
+        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo Screenplay by Fede Blanco &amp; Manuel Mateo"
       }
     ],
     "public_broadcasting": [
@@ -738,23 +738,6 @@
     },
     "production": [
       {
-        "tituloProyecto": "Hall of Mirrors (development)",
-        "sinopsis": "El Salón de los Espejos (development)",
-        "ficha": "El Salón de los Espejos (development)",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "1cee1743-9612-4e3e-8885-7081bc46b108",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ],
-        "id": "salonEspejos"
-      },
-      {
         "tituloProyecto": "Huequillos (2020)",
         "sinopsis": "<p>Un año de una nueva vida a la distancia, reconstruido en sueños, ruidos y luces que se sobreimponen en alucinantes delirios, o simples sobreimposiciones de lo pensado, lo visto y lo escuchado. La distancia y el a-isla-miento son un viaje claustrofóbico hacia el interior pero también la liberadora puerta a un cosmos de posibilidades.</p>",
         "ficha": "<p>5min, B/N, Digital, 16:9 </p><p>Dir: Fede Blanco <br>Guion: Fede Blanco <br>Prod: Wara </p><p>Tropical Lluvioso <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2020</p>",
@@ -796,48 +779,6 @@
         "trailer": "https://vimeo.com/452900649"
       },
       {
-        "tituloProyecto": "Sotavento (2022)",
-        "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "8e6457d9-ca20-4e5c-8c71-847f12e41716",
-              "height": 1920,
-              "width": 1280
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
-              "height": 1100,
-              "width": 1964
-            }
-          }
-        ],
-        "id": "sotavento",
-        "links": [
-          {
-            "link": "https://bafici.vivamoscultura.com/contenido/12959-sotavento"
-          },
-          {
-            "link": "https://www.festivaldebiarritz.com/film/sotavento/"
-          },
-          {
-            "link": "http://moscowfilmfestival.ru/miff44/eng/films/?id=44197"
-          },
-          {
-            "link": "https://cinedelfindelmundo.com/peliculas/sotavento/"
-          }
-        ],
-        "trailer": "https://youtu.be/QW-rIjDGTUQ"
-      },
-      {
-        "id": "nara",
         "tituloProyecto": "Nara (2021)",
         "sinopsis": "<p>Nara lives in isolation in an old house in the countryside, unable to go out during daylight. After her mother's mysterious death and her brother's sudden departure, Nara is left alone, haunted by her dreams.</p>",
         "ficha": "<p>37min, Color, Digital, 16:9 </p><p>Dir: Rosa Maria Rodriguez Pupo <br>Guion: Rosa María Rodriguez Pupo <br>Prod: Fede Blanco, Armando Capó </p><p>Selección Oficial, Festival Internacional del Nuevo Cine Latinoamericano</p><p>Tropical Lluvioso <br>GatoRosa Films</p><p>2021</p>",
@@ -870,6 +811,7 @@
             }
           }
         ],
+        "id": "nara",
         "links": [
           {
             "link": "https://m.imdb.com/title/tt27042356/"
@@ -928,6 +870,64 @@
         "trailer": "https://vimeo.com/tropicallluvioso/mulheresarvore"
       },
       {
+        "id": "salonEspejos",
+        "tituloProyecto": "Hall of Mirrors (development)",
+        "sinopsis": "El Salón de los Espejos (development)",
+        "ficha": "El Salón de los Espejos (development)",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1cee1743-9612-4e3e-8885-7081bc46b108",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ]
+      },
+      {
+        "tituloProyecto": "Sotavento (2022)",
+        "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "8e6457d9-ca20-4e5c-8c71-847f12e41716",
+              "height": 1920,
+              "width": 1280
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "a30f8412-a7d1-45e4-9821-0756899adcfe",
+              "height": 1100,
+              "width": 1964
+            }
+          }
+        ],
+        "id": "sotavento",
+        "links": [
+          {
+            "link": "https://bafici.vivamoscultura.com/contenido/12959-sotavento"
+          },
+          {
+            "link": "https://www.festivaldebiarritz.com/film/sotavento/"
+          },
+          {
+            "link": "http://moscowfilmfestival.ru/miff44/eng/films/?id=44197"
+          },
+          {
+            "link": "https://cinedelfindelmundo.com/peliculas/sotavento/"
+          }
+        ],
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
+      },
+      {
         "tituloProyecto": "El Pozo (2019)",
         "sinopsis": "<p>Once the most prosperous town in the South Pacific of Central America, Ciudad Cortés is a sepia portrait of our abandonment of coastlines, and the resilience of the human being.</p>",
         "ficha": "<p>15min, Color, Digital, 16:9</p><p>Dir: Fede Blanco<br>Prod: Daisy Arroyo &amp; Michael Castillo</p><p>Selección Oficial, Festival de Cine Pobre PANALANDIA</p><p>Tropical Lluvioso para la Universidad de Costa Rica</p><p>2019</p>",
@@ -975,44 +975,10 @@
     },
     "screenwriting": [
       {
-        "id": "anima",
-        "tituloProyecto": "Anima (2022)",
-        "sinopsis": " What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;Directed by Manuel MateoScreenplay by Fede Blanco &amp; Manuel Mateo",
-        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo. Screenplay by Fede Blanco &amp; Manuel Mateo",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
-              "height": 600,
-              "width": 1500
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
-              "height": 600,
-              "width": 1500
-            }
-          },
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
-              "height": 600,
-              "width": 1500
-            }
-          }
-        ]
-      },
-      {
         "id": "soberane",
         "tituloProyecto": "Soberane (2022)",
         "sinopsis": "Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home. ",
+        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara.",
         "galeria": [
           {
             "image": {
@@ -1041,8 +1007,42 @@
               "width": 2865
             }
           }
+        ]
+      },
+      {
+        "id": "anima",
+        "tituloProyecto": "Anima (2022)",
+        "sinopsis": " What stares back at us when we turn our cameras to the animal gaze? A contemplative dive into the daily life on a zoo sheds light on the mysterious world of animals in captivity. The cycle of life and death frames their lives, which happen between quotidian rituals of care and control.&nbsp;Directed by Manuel MateoScreenplay by Fede Blanco &amp; Manuel Mateo",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "277ce7f2-f545-4944-ae9c-02fed381e54e",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "1862f210-2bfd-47f0-b2f7-78af89842b54",
+              "height": 600,
+              "width": 1500
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "22a83f86-1472-4c96-957f-6f0c2108c112",
+              "height": 600,
+              "width": 1500
+            }
+          }
         ],
-        "ficha": "Locarno Film Festival, Pardino D'Oro for Best International Short. Directed by Wara. Screenplay by Fede Blanco &amp; Wara."
+        "ficha": "(Cuba, 2022, 20 min) Mar del Plata Film Festival, Astor Piazzola Best Latin-American Short Award. Directed by Manuel Mateo. Screenplay by Fede Blanco &amp; Manuel Mateo"
       }
     ],
     "public-broadcasting": [
