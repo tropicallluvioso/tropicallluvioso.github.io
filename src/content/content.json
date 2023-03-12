@@ -447,26 +447,10 @@
     },
     "screenwriting": [
       {
-        "tituloProyecto": "Baba (desarrollo)",
-        "id": "baba",
-        "sinopsis": "<p>Un joven se encuentra desconectado de su negritud y sus raíces indígenas. Imágenes de su padre ausente y la falta de imágenes de un olvidado bisabuelo son sus pistas en su búsqueda por su identidad.</p>",
-        "ficha": "<p>Largometraje documental en desarrollo por Mente Pública (Panamá) bajo la dirección de Harry Oglivie</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "aa9f94c7-3403-487d-bb4e-a11b10888e98",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ]
-      },
-      {
         "tituloProyecto": "Soberane (2022)",
         "id": "soberane",
         "sinopsis": "<p>Hakan no quiere regresar a Brasil, pero no sabe como decirle a Lissy que no puede ofrecerle más la vida que han comenzado a soñar fuera de Cuba. Hakan se enfrenta a su indecisión cuando Lissy descubre que le ha ocultado una posibilidad para salir de la isla. Sin más opciones para quedarse, Hakan debe asumir que no es más la misma persona para poder regresar a casa.</p>",
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "galeria": [
           {
             "image": {
@@ -505,7 +489,6 @@
             }
           }
         ],
-        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "trailer": "https://vimeo.com/725455404"
       },
       {
@@ -544,11 +527,9 @@
         "ficha": "<p>20min, Color, Digital, 16:9 </p><p>Dir: Manuel Mateo Gómez <br>Guion: Fede Blanco, Manuel Mateo Gómez <br>Prod: Yenisleidy Vázquez Capote </p><p>Premio Ástor Piazzola al Mejor Cortometraje Latinoamericano - 37 Festival Internacional de Cine de Mar del Plata </p><p>Escuela Internacional de Cine y TV (EICTV) </p><p>2022</p>"
       },
       {
-        "id": "sotavento",
         "tituloProyecto": "Sotavento (2022)",
+        "id": "sotavento",
         "sinopsis": "<p>Dos niños esperan ansiosos la llamada del abuelo que les cuenta las fabulosas hazañas del pescador Sotavento. Una madrugada, aprovechando el agotamiento de sus padres, deciden emprender su más añorada aventura: la travesía marítima que los llevará de regreso a casa.</p>",
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
-        "trailer": "https://youtu.be/QW-rIjDGTUQ",
         "galeria": [
           {
             "image": {
@@ -559,7 +540,9 @@
               "width": 1964
             }
           }
-        ]
+        ],
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
       },
       {
         "id": "obra",
@@ -598,6 +581,23 @@
         ]
       },
       {
+        "id": "havanera",
+        "tituloProyecto": "Havanera (2022)",
+        "sinopsis": "<p>Gerard tiene una promesa pendiente: enviar a su madre imágenes de Cuba para ver si, a pesar de la enfermedad de su padre, ellos podrían visitarle. Vagando por la isla que su padre evocaba constantemente en canciones, se pregunta qué razones le han llevado a alejarse hasta la otra orilla del atlántico. Al grabar trata de invocar a su padre a través de las heridas de la propia ciudad, pero las imágenes que la cámara le devuelve le recuerdan que quizás ahora es ya demasiado tarde.</p>",
+        "ficha": "<p>17min, Color, 16mm, 4:3 </p><p>Dir: Gerard Voltà <br>Guion: Fede Blanco <br>Prod: Sammy DiDonato </p><p>Escuela Internacional de Cine y TV (EICTV)&nbsp; </p><p>2022</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "d84f9d7f-0729-44b0-908a-5a580e629fdf",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ]
+      },
+      {
         "id": "guardianas",
         "tituloProyecto": "Guardianas (desarrollo)",
         "sinopsis": "<p>En defensa de sus territorios y conocimiento ancestral, tres lideresas tejen comunidades que desafían la falsa frontera que hemos levantado entre lo humano y lo natural.</p>",
@@ -610,6 +610,23 @@
               "id": "0f58606e-02b9-4620-9f4f-bc5ada8bcfbf",
               "height": 1081,
               "width": 1921
+            }
+          }
+        ]
+      },
+      {
+        "id": "baba",
+        "tituloProyecto": "Baba (desarrollo)",
+        "sinopsis": "<p>Un joven se encuentra desconectado de su negritud y sus raíces indígenas. Imágenes de su padre ausente y la falta de imágenes de un olvidado bisabuelo son sus pistas en su búsqueda por su identidad.</p>",
+        "ficha": "<p>Largometraje documental en desarrollo por Mente Pública (Panamá) bajo la dirección de Harry Oglivie</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "aa9f94c7-3403-487d-bb4e-a11b10888e98",
+              "height": 1080,
+              "width": 1920
             }
           }
         ]
@@ -1109,26 +1126,10 @@
     },
     "screenwriting": [
       {
-        "id": "baba",
-        "tituloProyecto": "Baba (development)",
-        "sinopsis": "<p>A young man finds himself disconnected from his blackness and his indigenous roots. Images of an absent father and the absent image of a forgotten great-grandfather will be his clues in his search for identity.</p>",
-        "ficha": "<p>Feature documentary in development by Mente Pública (Panama) under the direction of Harry Oglivie</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "aa9f94c7-3403-487d-bb4e-a11b10888e98",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ]
-      },
-      {
         "id": "soberane",
         "tituloProyecto": "Soberane (2022)",
         "sinopsis": "<p>Hakan does not wish to return to Brazil, but doesn't know how to tell Lissy that they can no longer offer her a dreamed life outside of Cuba. Hakan grapples with indecision when Lissy discovers that they have kept from her a chance to get off the island. Out of options that allow them to stay, Hakan must accept the new person they have become in order to return home.</p>",
+        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "galeria": [
           {
             "image": {
@@ -1167,7 +1168,6 @@
             }
           }
         ],
-        "ficha": "<p>27min, B/N &amp; Color, Digital, 16:9 </p><p>Wara, Darianis Palenzuela &amp; Alejandra de Jesús Garcel </p><p>Dir: Wara <br>Guion: Fede Blanco, Wara<br>Prod: Rosa Maria Rodríguez Pupo &amp; Hanzer Garriga González </p><p><br>Pardino D'Oro al Mejor Cortometraje Internacional - 75 Locarno Film Festival </p><p>Escuela Internacional de Cine y TV (EICTV)<br>GatoRosa Films<br>DelMonte Producciones </p><p>2022</p>",
         "trailer": "https://vimeo.com/725455404"
       },
       {
@@ -1209,8 +1209,6 @@
         "id": "sotavento",
         "tituloProyecto": "Sotavento (2022)",
         "sinopsis": "<p>Two children eagerly await a call from their grandpa, who through the phone screen narrates the adventures of the fisherman Sotavento to them. The kids take advantage of their parents' burnout to undertake an adventure of their own: to set sail back home.</p>",
-        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
-        "trailer": "https://youtu.be/QW-rIjDGTUQ",
         "galeria": [
           {
             "image": {
@@ -1221,7 +1219,9 @@
               "width": 1964
             }
           }
-        ]
+        ],
+        "ficha": "<p>11min, Color, Digital, 16:9</p><p>Dir: Marco Salaverria<br>Guion: Marco Salaverria &amp; Fede Blanco<br>Prod: Alejandra Acevedo Suzzarini, Lisa María Velázquez Serrano</p><p>Mejor Cortometraje Mercosureño - BAFICI 2022 <br>Mejor Guion / Mejor Cortometraje - Festival Manuel Trujillo Duran 2022&nbsp;</p><p>Dos Margaritas<br>GatoRosa Films<br>Tropical Lluvioso<br>Escuela Internacional de Cine y TV (EICTV)</p><p>2022</p>",
+        "trailer": "https://youtu.be/QW-rIjDGTUQ"
       },
       {
         "id": "obra",
@@ -1260,6 +1260,23 @@
         ]
       },
       {
+        "id": "havanera",
+        "tituloProyecto": "Havanera (2022)",
+        "sinopsis": "<p>Gerard tiene una promesa pendiente: enviar a su madre imágenes de Cuba para ver si, a pesar de la enfermedad de su padre, ellos podrían visitarle. Vagando por la isla que su padre evocaba constantemente en canciones, se pregunta qué razones le han llevado a alejarse hasta la otra orilla del atlántico. Al grabar trata de invocar a su padre a través de las heridas de la propia ciudad, pero las imágenes que la cámara le devuelve le recuerdan que quizás ahora es ya demasiado tarde.</p>",
+        "ficha": "<p>17min, Color, 16mm, 4:3 </p><p>Dir: Gerard Voltà <br>Guion: Fede Blanco <br>Prod: Sammy DiDonato </p><p>Escuela Internacional de Cine y TV (EICTV)&nbsp; </p><p>2022</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "d84f9d7f-0729-44b0-908a-5a580e629fdf",
+              "height": 1080,
+              "width": 1920
+            }
+          }
+        ]
+      },
+      {
         "id": "guardianas",
         "tituloProyecto": "Guardianas (development)",
         "sinopsis": "<p>En defensa de sus territorios y conocimiento ancestral, tres lideresas tejen comunidades que desafían la falsa frontera que hemos levantado entre lo humano y lo natural.</p>",
@@ -1272,6 +1289,23 @@
               "id": "0f58606e-02b9-4620-9f4f-bc5ada8bcfbf",
               "height": 1081,
               "width": 1921
+            }
+          }
+        ]
+      },
+      {
+        "id": "baba",
+        "tituloProyecto": "Baba (development)",
+        "sinopsis": "<p>A young man finds himself disconnected from his blackness and his indigenous roots. Images of an absent father and the absent image of a forgotten great-grandfather will be his clues in his search for identity.</p>",
+        "ficha": "<p>Feature documentary in development by Mente Pública (Panama) under the direction of Harry Oglivie</p>",
+        "galeria": [
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "aa9f94c7-3403-487d-bb4e-a11b10888e98",
+              "height": 1080,
+              "width": 1920
             }
           }
         ]
