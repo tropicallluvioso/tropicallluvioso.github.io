@@ -687,20 +687,38 @@
       },
       {
         "id": "sut",
-        "tituloProyecto": "Suave un Toque",
+        "tituloProyecto": "Suave un Toque (2017-2018)",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "59a382bc-4b20-47fe-80ac-a943285a2937",
-              "height": 1365,
-              "width": 2048
+              "id": "99018671-dc30-4603-ac8e-398955411d79",
+              "height": 1082,
+              "width": 1938
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "abde1e95-d512-406c-9b1b-0de1ce2cd96f",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "b33fdf0e-40f5-4ad7-ab57-b5e4134d2141",
+              "height": 1080,
+              "width": 1920
             }
           }
         ],
-        "sinopsis": "Political satire newscast for public broadcast.",
-        "ficha": "\"There are few things in television that can be considered a life-changing experience... This show is one of them\" (Roberto A.)\"Blessed be the pot in which a seed was planted that grew up to be the weed plant that whoever created Suave un Toque smoked from!\"&nbsp; (【Ðavïd Ʋ】)Nuevas Miradas en la Televisión Award (Quilmes University, Uruguay)Created by Fede Blanco.Showrunners: Fede Blanco &amp; Fernando Obando"
+        "sinopsis": "<p>Aquí todo es ridículo y absurdo, pero muy pocas cosas son inventadas: noticiero de sátira política costarricense.</p>",
+        "ficha": "<p>2 temporadas, 32 episodios (26min)</p><p>Producción Ejecutiva: Fede Blanco <br>Direccion: Fernando Obando, Fede Blanco <br>Guion: Fede Blanco, Natalia Diaz, Estefany Jiménez, Eddson Gómez, Fernando Obando &amp; Eduardo Mora</p><p>Premio Nuevas Miradas en la TV 2018</p><p>Tropical Lluvioso <br>Canal UCR <br>Federación de Estudiantes de la Universidad de Costa Rica</p><p>2017-2018</p>"
       }
     ],
     "socials": {
@@ -1420,20 +1438,38 @@
       },
       {
         "id": "sut",
-        "tituloProyecto": "Suave un Toque",
+        "tituloProyecto": "Suave un Toque (2017-2018)",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "59a382bc-4b20-47fe-80ac-a943285a2937",
-              "height": 1365,
-              "width": 2048
+              "id": "99018671-dc30-4603-ac8e-398955411d79",
+              "height": 1082,
+              "width": 1938
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "abde1e95-d512-406c-9b1b-0de1ce2cd96f",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "b33fdf0e-40f5-4ad7-ab57-b5e4134d2141",
+              "height": 1080,
+              "width": 1920
             }
           }
         ],
-        "sinopsis": "Political satire newscast for public broadcast.",
-        "ficha": "\"There are few things in television that can be considered a life-changing experience... This show is one of them\" (Roberto A.)\"Blessed be the pot in which a seed was planted that grew up to be the weed plant that whoever created Suave un Toque smoked from!\"&nbsp; (【Ðavïd Ʋ】)Nuevas Miradas en la Televisión Award (Quilmes University, Uruguay)Created by Fede Blanco.Showrunners: Fede Blanco &amp; Fernando Obando"
+        "sinopsis": "<p>Aquí todo es ridículo y absurdo, pero muy pocas cosas son inventadas: noticiero de sátira política costarricense.</p>",
+        "ficha": "<p>2 temporadas, 32 episodios (26min)</p><p>Producción Ejecutiva: Fede Blanco <br>Direccion: Fernando Obando, Fede Blanco <br>Guion: Fede Blanco, Natalia Diaz, Estefany Jiménez, Eddson Gómez, Fernando Obando &amp; Eduardo Mora</p><p>Premio Nuevas Miradas en la TV 2018</p><p>Tropical Lluvioso <br>Canal UCR <br>Federación de Estudiantes de la Universidad de Costa Rica</p><p>2017-2018</p>"
       }
     ],
     "socials": {
