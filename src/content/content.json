@@ -197,25 +197,49 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
-              "height": 1600,
-              "width": 2560
+              "id": "76eb8666-28a9-46b1-860c-5813d6024f5e",
+              "height": 1080,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
-              "height": 1600,
-              "width": 2560
+              "id": "238a351f-c18d-419b-a703-176eb733b788",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "47bb4a27-6f41-4f18-96a8-ee7e990533c4",
+              "height": 1080,
+              "width": 1920
             }
           }
         ],
-        "ficha": "Mulheres Árvore (2022)",
-        "sinopsis": "Mulheres Árvore (2022)",
+        "ficha": "<p>Mulheres Árvore </p><p>17min, B/N, Digital, 16:9 </p><p>Dir: Wara <br>Guion: Wara <br>Prod: Fede Blanco </p><p>Selección Oficial, Festival do Rio 2022 <br>Selección Oficial, 32 Cine Ceará </p><p>Tropical Lluvioso <br>Espacio Brasileiro das Artes (EBA) <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2022</p>",
+        "sinopsis": "<p>Una familia de mujeres guarda un secreto milenario para sobrevivir en medio de un etnocidio. En medio de su paciente rutina, son invocadas a rebelarse.</p>",
         "tituloProyecto": "Mulheres Árvore (2022)",
-        "id": "mulheres"
+        "id": "mulheres",
+        "links": [
+          {
+            "link": "https://www.imdb.com/title/tt23328170/"
+          },
+          {
+            "link": "https://www.ensaiocritico.com/post/wara-mulheres-arvore-cine-ceara-soberane"
+          },
+          {
+            "link": "https://www.festivaldorio.com.br/en/films/mulheres-arvore"
+          },
+          {
+            "link": "https://www.cineceara.com/Olhar-do-Cear%C3%A1---Curtas/Mulheres-%C3%81rvore.html"
+          }
+        ],
+        "trailer": "https://vimeo.com/tropicallluvioso/mulheresarvore"
       },
       {
         "galeria": [
@@ -697,29 +721,53 @@
     "production": [
       {
         "tituloProyecto": "Mulheres Árvore (2022)",
-        "sinopsis": "Mulheres Árvore (2022)",
-        "ficha": "Mulheres Árvore (2022)",
+        "sinopsis": "<p>A family of women keeps a millenial secret in order to survive in the middle of an ethnocide. In the midst of their patient routine, they are invoked to rebel.</p>",
+        "ficha": "<p>Mulheres Árvore </p><p>17min, B/N, Digital, 16:9 </p><p>Dir: Wara <br>Guion: Wara <br>Prod: Fede Blanco </p><p>Selección Oficial, Festival do Rio 2022 <br>Selección Oficial, 32 Cine Ceará </p><p>Tropical Lluvioso <br>Espacio Brasileiro das Artes (EBA) <br>Escuela Internacional de Cine y TV (EICTV) </p><p>2022</p>",
         "galeria": [
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "fd30e62e-004a-4d67-9130-f66c11665d76",
-              "height": 1600,
-              "width": 2560
+              "id": "76eb8666-28a9-46b1-860c-5813d6024f5e",
+              "height": 1080,
+              "width": 1920
             }
           },
           {
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "2ecf04f9-678f-4f9e-83e9-6b347e19c2a9",
-              "height": 1600,
-              "width": 2560
+              "id": "238a351f-c18d-419b-a703-176eb733b788",
+              "height": 1080,
+              "width": 1920
+            }
+          },
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "47bb4a27-6f41-4f18-96a8-ee7e990533c4",
+              "height": 1080,
+              "width": 1920
             }
           }
         ],
-        "id": "mulheres"
+        "id": "mulheres",
+        "links": [
+          {
+            "link": "https://www.imdb.com/title/tt23328170/"
+          },
+          {
+            "link": "https://www.ensaiocritico.com/post/wara-mulheres-arvore-cine-ceara-soberane"
+          },
+          {
+            "link": "https://www.festivaldorio.com.br/en/films/mulheres-arvore"
+          },
+          {
+            "link": "https://www.cineceara.com/Olhar-do-Cear%C3%A1---Curtas/Mulheres-%C3%81rvore.html"
+          }
+        ],
+        "trailer": "https://vimeo.com/tropicallluvioso/mulheresarvore"
       },
       {
         "tituloProyecto": "El Salón de los Espejos (development)",
