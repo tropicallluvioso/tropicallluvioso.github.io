@@ -23,7 +23,7 @@ let {title} = Astro.props;
   <figure class="card"><img loading="lazy" src={`https://ucarecdn.com/${project.galeria[0].image.id}/`}  />
     <figcaption>
       <h3>{project.tituloProyecto}</h3>
-      <p class="content" set:html= {project.sinopsis}></p>
+       <div class="content" set:html={project.sinopsis}></div>
       <a class="content btn center-content" href={`/public-broadcast/${project.id}`}>Leer Más</a>
 
     </figcaption>
