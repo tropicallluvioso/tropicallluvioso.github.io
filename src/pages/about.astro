@@ -1,10 +1,34 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
+import LanguageSwitcher from '../components/LanguageSwitcher.astro'
+import { suid } from '../libs/utils'
+import { get_counter, set_counter } from '../components/sessions'
 import data from "../content/content.json"
 
-const aboutText = data.es.about.text
+const aboutTextES = data.es.about.text
+const aboutTextEN = data.en.about.text
+var aboutText = data.es.about.text;
 
+let session_id =0
+
+var counter = get_counter(session_id)
+if(counter == null){
+	counter = 0
+	set_counter(session_id,counter)
+}
+
+
+switch (counter) {
+ case 1:
+ aboutText = aboutTextES;
+ break;
+ case 2:
+ aboutText = aboutTextEN;
+ break;
+ default:
+ console.log('ola');
+}
 
 ---
 
