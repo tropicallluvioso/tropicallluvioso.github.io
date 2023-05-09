@@ -2,14 +2,44 @@
 import MainLayout from "../layouts/MainLayout.astro"
 import '../styles/main.css';
 import '../styles/cards.css';
+import LanguageSwitcher from '../components/LanguageSwitcher.astro'
+import { suid } from '../libs/utils'
+import { get_counter, set_counter } from '../components/sessions'
 import data from "../content/content.json"
+
+var projects;
+
+let session_id =0
+
+var counter = get_counter(session_id)
+if(counter == null){
+	counter = 0
+	set_counter(session_id,counter)
+}
+
+const projectsES = data.es.public_broadcasting;
+const projectsEN = data.en.public_broadcasting;
+
+
+
+switch (counter) {
+ case 1:
+ projects = projectsES;
+ break;
+ case 2:
+ projects = projectsEN;
+ break;
+ default:
+ console.log('jj');
+}
+
 
 //const response = await fetch('https://raw.githubusercontent.com/smosgasbord/fedePortfolio/main/db.json');
 //const data = await response.json();
 
 
-const projects = data.es.public_broadcasting;
-console.log(projects)
+//const projects = data.es.public_broadcasting;
+//console.log(projects)
 
 
 let {title} = Astro.props;
@@ -32,3 +62,6 @@ let {title} = Astro.props;
 )}
   </div>
 </MainLayout>
+  
+<LanguageSwitcher title="" init={counter}/>
+
