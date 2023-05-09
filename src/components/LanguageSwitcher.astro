@@ -9,11 +9,25 @@ const { title,init } = Astro.props;
 
 ---
 
-<select id="langSwitch">
+<select id="langSwitch" class="langSwitch">
 <option id="es" value="es">LANG</option>
 <option id="es" value="es">ES</option>
 <option id="en" value="en">EN</option>
 </select>
+
+<style>
+.langSwitch {
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    margin: 15px;
+    right: 0;
+    background: rgba(0,0,0,0.3);
+    border: white 2px;
+    color: white;
+}
+</style>
 
 
 
