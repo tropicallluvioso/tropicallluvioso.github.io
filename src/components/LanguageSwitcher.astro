@@ -1,0 +1,57 @@
+---
+
+export interface Props {
+	title: string;
+	init: number;
+}
+
+const { title,init } = Astro.props;
+
+---
+
+<select id="langSwitch">
+<option id="es" value="es">LANG</option>
+<option id="es" value="es">ES</option>
+<option id="en" value="en">EN</option>
+</select>
+
+
+
+
+<script>
+	import {async_put} from '../libs/utils'
+	let session_id = 0
+	if(!session_id){
+		
+		sessionStorage.setItem("session_id",session_id)
+	}
+
+	function get_counter(){
+		const counter = parseInt(sessionStorage.getItem("counter"))
+		if(counter){
+			return counter
+		}else{
+			return 0
+		}
+	}
+  
+	function set_counter(counter){
+		sessionStorage.setItem("counter",counter)
+		async_put("api/counter",{session_id:session_id,counter:counter}).then((resp)=>{
+			console.log(`new counter put value = ${counter}`)
+		})
+	}
+  
+  
+  const langSwitch = document.querySelector("#langSwitch")
+    langSwitch.options[get_counter()].selected="true";
+    //escucha los cambios
+    langSwitch.addEventListener("change",function() {
+    
+		if (langSwitch.options.selectedIndex >0){
+			set_counter(langSwitch.options.selectedIndex)//en
+      console.log(get_counter())
+      window.location.reload();}
+		})
+    
+</script>
