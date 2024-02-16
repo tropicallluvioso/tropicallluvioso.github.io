@@ -648,23 +648,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "baba",
-        "tituloProyecto": "Baba (desarrollo)",
-        "sinopsis": "<p>Un joven se encuentra desconectado de su negritud y sus raíces indígenas. Imágenes de su padre ausente y la falta de imágenes de un olvidado bisabuelo son sus pistas en su búsqueda por su identidad.</p>",
-        "ficha": "<p>Largometraje documental en desarrollo por Mente Pública (Panamá) bajo la dirección de Harry Oglivie</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "aa9f94c7-3403-487d-bb4e-a11b10888e98",
-              "height": 1080,
-              "width": 1920
-            }
-          }
-        ]
       }
     ],
     "public_broadcasting": [
@@ -1377,23 +1360,6 @@
               "id": "0f58606e-02b9-4620-9f4f-bc5ada8bcfbf",
               "height": 1081,
               "width": 1921
-            }
-          }
-        ]
-      },
-      {
-        "id": "baba",
-        "tituloProyecto": "Baba (development)",
-        "sinopsis": "<p>A young man finds himself disconnected from his blackness and his indigenous roots. Images of an absent father and the absent image of a forgotten great-grandfather will be his clues in his search for identity.</p>",
-        "ficha": "<p>Feature documentary in development by Mente Pública (Panama) under the direction of Harry Oglivie</p>",
-        "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "aa9f94c7-3403-487d-bb4e-a11b10888e98",
-              "height": 1080,
-              "width": 1920
             }
           }
         ]
