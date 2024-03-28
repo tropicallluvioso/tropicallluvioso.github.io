@@ -633,12 +633,20 @@
         ]
       },
       {
-        "id": "guardianas",
-        "tituloProyecto": "Guardianas (desarrollo)",
-        "sinopsis": "<p>En defensa de sus territorios y conocimiento ancestral, tres lideresas tejen comunidades que desafían la falsa frontera que hemos levantado entre lo humano y lo natural.</p>",
-        "ficha": "<p>Largometraje documental en desarrollo por Rayhuela Films (Colombia) bajo la dirección de Daniela Castro Valencia.</p><p>Argumento de Daniela Castro Valencia y Fede Blanco.</p>",
+        "id": "fimdenos",
+        "tituloProyecto": "Fim de Nos (development)",
+        "sinopsis": "<p>After a global uterus strike which is set to bring the extinction of her small village in the Amazon rainforest, Luiza becomes pregnant.</p>",
+        "ficha": "<p>Largometraje documental en desarrollo en Brasil bajo la dirección de Sofía Sahakian.</p><p>Argumento de Fede Blanco.</p><p>Desarrollo financiado por la Secretaría de Cultura del Estado de Amazonas.</p>",
         "galeria": [
-          {}
+          {
+            "image": {
+              "provider": "uploadcare",
+              "type": "image",
+              "id": "ed81965f-6582-417c-b453-c04a5403fd8d",
+              "height": 1152,
+              "width": 2048
+            }
+          }
         ]
       }
     ],
@@ -1343,7 +1351,7 @@
         "id": "fimdenos",
         "tituloProyecto": "Fim de Nos (development)",
         "sinopsis": "<p>After a global uterus strike which is set to bring the extinction of her small village in the Amazon rainforest, Luiza becomes pregnant.</p>",
-        "ficha": "<p>Largometraje documental en desarrollo en Brasil bajo la dirección de Sofía Sahakian.</p><p>Argumento de Fede Blanco.</p>",
+        "ficha": "<p>Largometraje documental en desarrollo en Brasil bajo la dirección de Sofía Sahakian.</p><p>Argumento de Fede Blanco.</p><p>Desarrollo financiado por la Secretaría de Cultura del Estado de Amazonas.</p>",
         "galeria": [
           {
             "image": {
