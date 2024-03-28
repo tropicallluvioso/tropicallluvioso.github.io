@@ -638,15 +638,7 @@
         "sinopsis": "<p>En defensa de sus territorios y conocimiento ancestral, tres lideresas tejen comunidades que desafían la falsa frontera que hemos levantado entre lo humano y lo natural.</p>",
         "ficha": "<p>Largometraje documental en desarrollo por Rayhuela Films (Colombia) bajo la dirección de Daniela Castro Valencia.</p><p>Argumento de Daniela Castro Valencia y Fede Blanco.</p>",
         "galeria": [
-          {
-            "image": {
-              "provider": "uploadcare",
-              "type": "image",
-              "id": "0f58606e-02b9-4620-9f4f-bc5ada8bcfbf",
-              "height": 1081,
-              "width": 1921
-            }
-          }
+          {}
         ]
       }
     ],
@@ -1357,9 +1349,9 @@
             "image": {
               "provider": "uploadcare",
               "type": "image",
-              "id": "0f58606e-02b9-4620-9f4f-bc5ada8bcfbf",
-              "height": 1081,
-              "width": 1921
+              "id": "ed81965f-6582-417c-b453-c04a5403fd8d",
+              "height": 1152,
+              "width": 2048
             }
           }
         ]
